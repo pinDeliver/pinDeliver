@@ -1,0 +1,34 @@
+- name: Introduction
+  items:
+  - name: Overview
+    href: overview.md
+  - name: Terminology
+    href: terminology.md
+- name: Admin
+  items:
+  - name: Drivers
+    href: drivers.md
+  - name: Vehicles
+    href: vehicles.md
+  - name: "Delivery Groups"
+    href: delivery_groups.md
+  - name: Settings
+    href: settings.md
+  - name: Users
+    href: users.md
+  - name: Senders
+    href: senders.md
+- name: Followup
+  items:
+  - name: Deliveries
+    href: deliveries.md
+  - name: "Unhandled deliveries"
+    href: unhandled_deliveries.md
+  - name: "Route Assignments"
+    href: route_assignments.md
+  - name: "Real time follow-up"
+    href: real_time_follow_up.md
+  - name: "Real time map"
+    href: real_time_map.md
+  - name: "Performance report"
+    href: performance_report.md
