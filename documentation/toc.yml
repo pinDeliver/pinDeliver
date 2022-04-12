@@ -4,6 +4,8 @@
     href: overview.md
   - name: Terminology
     href: terminology.md
+  - name: "Get started"
+    href: get_started.md
 - name: Admin
   items:
   - name: Drivers
