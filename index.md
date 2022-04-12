@@ -1,6 +1,10 @@
 # What is pinDeliver?
 
-![pinDeliver logo](/images/pinDeliver_logo.png)
+
+
+<p align="center">
+  <img src="/images/pinDeliver_logo.png" alt="drawing" width="500"/>
+</p>
 
 This site describes how to easily get going with pinDeliver on your own. You will see both shorter video clips and written manuals and tutorials.
 
