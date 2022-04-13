@@ -1,7 +1,3 @@
-# What is pinDeliver?
-
-
-
 <p align="center">
   <img src="/images/pinDeliver_logo.png" alt="drawing" width="500"/>
 </p>
