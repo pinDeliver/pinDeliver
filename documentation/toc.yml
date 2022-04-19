@@ -1,11 +1,11 @@
 - name: Introduction
   items:
-  - name: Overview
-    href: overview.md
-  - name: Terminology
-    href: terminology.md
   - name: "Get started"
     href: get_started.md
+  - name: Definitions
+    href: definitions.md
+  - name: Terminology
+    href: terminology.md
 - name: Process
   items:
   - name: Order Excel upload

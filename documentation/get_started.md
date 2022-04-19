@@ -1,4 +1,4 @@
-Welcome to pinDeliver
+# Welcome to pinDeliver
 
 **Introduction**
 
@@ -6,7 +6,14 @@ pinDeliver is a cloud-based delivery platform that streamlines and digitizes the
 
 **Get started**
 
-It is very easy to get started with pinDeliver. The easiest scenario is to upload your orders with as Excel files. But before you can start you need to do some basic setup. Go through the following settings from the Admin-menu!
+It is very easy to get started with pinDeliver. The easiest scenario is to upload your orders with as Excel files. But before you can start you need to understand the process in the platform and do some basic setup. Start by reading the definitions and and you also have the terminology list as help to understand. 
+
+Basic understanding:
+
+* [Definitions](definitions.md)
+
+
+Basic setup from the Admin-menu!
 
 * [Delivery Groups](delivery_groups.md)
 * [Vehicles](vehicles.md)
