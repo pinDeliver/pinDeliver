@@ -6,6 +6,18 @@
     href: terminology.md
   - name: "Get started"
     href: get_started.md
+- name: Process
+  items:
+  - name: Order Excel upload
+    href: order_excel_upload.md
+  - name: Route planning
+    href: route_planning.md
+  - name: Driver association
+    href: driver_association.md
+  - name: GO-app for drivers
+    href: go_app_for_drivers.md
+  - name: Customer information
+    href: customer_information.md
 - name: Admin
   items:
   - name: Drivers
