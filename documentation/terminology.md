@@ -1,6 +1,12 @@
 # Terminology
 
-This terminology list describes common terms and concepts that is good to know when learning about pinDeliver.
+This terminology list describes common terms that are good to know when learning about pinDeliver.
+
+**Customer order**
+Similar to a delivery or a pickup. Used to simplify in writing instead of writing *Delivery or Pickup*.
+
+**Dynamic pickups and deliveries**
+Used when a route should be planned to first do a pickup at one place or more places and then deliver to one or more places. The pickup will then be planned according to the best route.
 
 **Pickup identifier**  
 Identifying value to connect a pickup with one or more deliveries or vice versa.
