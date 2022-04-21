@@ -6,7 +6,7 @@ pinDeliver is a cloud-based delivery platform that streamlines and digitizes the
 
 **Get started**
 
-It is very easy to get started with pinDeliver. The easiest scenario is to upload your orders with as Excel files. But before you can start you need to understand the process in the platform and do some basic setup. Start by reading the definitions and and you also have the terminology list as help to understand. 
+It is very easy to get started with pinDeliver. The easiest scenario is to upload your orders with as Excel files. But before you can start you need to understand the process in the platform and do some basic setup. Start by reading the definitions and and you also have the terminology list as help to understand.
 
 Basic understanding:
 
@@ -20,3 +20,8 @@ Basic setup from the Admin-menu!
 * [Drivers](drivers.md)
 * [Senders](senders.md)
 * [Settings](settings.md)
+  * [Basic settings](basic_settings.md)
+  * [Optimization settings](optimization_settings.md)
+  * [SMS](sms_settings.md)
+  * [The Go app](go_app_settings.md)
+  * [Customer page](customer_page_settings.md)

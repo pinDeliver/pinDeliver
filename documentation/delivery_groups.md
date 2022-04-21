@@ -1,5 +1,4 @@
-# Delivery groups ![Delivery Groups](/images/icons/delivery_group.png)
-
+# Delivery groups
 
 Delivery groups are essential when running pinDeliver. Many entities are connected to one or more delivery groups. You can use delivery groups for dividing deliveries into planning orders. For example based on different warehouse locations and/or user permissions. A delivery can only be connected to one delivery group. And planning orders can only consist of deliveries to the same delivery group, which means that a rout will also only have deliveries to the same delivery group. It is possible to have several planning orders for the same delivery group for the same day.
 

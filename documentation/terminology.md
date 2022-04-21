@@ -8,6 +8,9 @@ Similar to a delivery or a pickup. Used to simplify in writing instead of writin
 **Dynamic pickups and deliveries**
 Used when a route should be planned to first do a pickup at one place or more places and then deliver to one or more places. The pickup will then be planned according to the best route.
 
+**Open end**
+When a vehicle doesn´t have an end address specified the route will have an open end meaning that the time for going from the last stop to the address to park the vehicle will not be included in the route optimization.
+
 **Pickup identifier**  
 Identifying value to connect a pickup with one or more deliveries or vice versa.
 

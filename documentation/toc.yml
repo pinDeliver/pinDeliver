@@ -10,13 +10,13 @@
   items:
   - name: Order Excel upload
     href: order_excel_upload.md
-  - name: Route planning
+  - name: "Route planning"
     href: route_planning.md
-  - name: Driver association
+  - name: "Driver association"
     href: driver_association.md
-  - name: GO-app for drivers
+  - name: "Go-app for drivers"
     href: go_app_for_drivers.md
-  - name: Customer information
+  - name: "Customer information"
     href: customer_information.md
 - name: Admin
   items:
@@ -27,7 +27,31 @@
   - name: "Delivery Groups"
     href: delivery_groups.md
   - name: Settings
-    href: settings.md
+    items:
+    - name: "Basic settings"
+      href: basic_settings.md
+    - name: Language settings
+      href: language_settings.md
+    - name: "Optimization settings"
+      href: optimization_settings.md
+    - name: "Click & Collect"
+      href: click_and_collect_settings.md
+    - name: SMS
+      href: sms_settings.md
+    - name: Email
+      href: email_settings.md
+    - name: "Message schedule"
+      href: message_schedule_settings.md
+    - name: "The Go app"
+      href: go_app_settings.md
+    - name: "The Hub app"
+      href: hub_app_settings.md
+    - name: Security
+      href: security_settings.md
+    - name: "Company features"
+      href: company_features_settings.md
+    - name: "Customer page"
+      href: customer_page_settings.md
   - name: Users
     href: users.md
   - name: Senders
