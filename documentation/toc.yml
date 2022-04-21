@@ -28,34 +28,48 @@
     href: delivery_groups.md
   - name: Settings
     items:
+  - name: Settings
+    href: settings.md
+    items:
     - name: "Basic settings"
-      href: basic_settings.md
+      href: settings_basic.md
     - name: Language settings
-      href: language_settings.md
+      href: settings_language.md
     - name: "Optimization settings"
-      href: optimization_settings.md
+      href: settings_optimization.md
     - name: "Click & Collect"
-      href: click_and_collect_settings.md
+      href: settings_click_and_collect.md
     - name: SMS
-      href: sms_settings.md
+      href: settings_sms.md
     - name: Email
-      href: email_settings.md
+      href: settings_email.md
     - name: "Message schedule"
-      href: message_schedule_settings.md
+      href: settings_message_schedule.md
     - name: "The Go app"
-      href: go_app_settings.md
+      href: settings_go_app.md
     - name: "The Hub app"
-      href: hub_app_settings.md
+      href: settings_hub_app.md
     - name: Security
-      href: security_settings.md
+      href: settings_security.md
     - name: "Company features"
-      href: company_features_settings.md
+      href: settings_company_features.md
     - name: "Customer page"
-      href: customer_page_settings.md
+      href: settings_customer_page.md
   - name: Users
     href: users.md
   - name: Senders
     href: senders.md
+    items:
+    - name: Sender
+      href: senders_sender.md
+    - name: Settings
+      href: senders_settings.md
+    - name: SMS
+      href: senders_sms.md
+    - name: Email
+      href: senders_email.md
+    - name: Theme
+      href: senders_theme.md
 - name: Followup
   items:
   - name: Deliveries
