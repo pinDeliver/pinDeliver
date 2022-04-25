@@ -1,5 +1,4 @@
 # Vehicles
-
 After route optimization you connect a vehicle to each route. A vehicle must be linked to a delivery group and will only be available for that delivery group when assigning vehicles to routes. Each vehicle always has an availability time and a starting position. And it is also possible to have limitations regarding for example, weight, volume, load meters, daily distance etc.
 
 For each vehicle you have available for pinDeliver you add it to pinDeliver with relevant specifications and limitations. If you have many vehicles with exactly the same limitations and specifications you can add only one record and use the field *Maximum number of resources* to specify that you have more than one vehicle with exactly the same specifications.

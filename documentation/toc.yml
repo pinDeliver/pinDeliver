@@ -27,8 +27,6 @@
   - name: "Delivery groups"
     href: delivery_groups.md
   - name: Settings
-    items:
-  - name: Settings
     href: settings.md
     items:
     - name: "Basic settings"

@@ -1,5 +1,4 @@
 # Drivers
-
 When you are pleased with the route optimization you will need to assign drivers to each route. A driver is not a user in pinDeliver. The driver will get the route instructions as a link sent to his mobile phone normally but email is also possible. A driver can be available for all delivery groups or just selected delivery groups. You specify this when adding the driver as below.
 
 A driver is setup with a name but it is off course also possible to have generic drivers and instead of naming them with first name and last name you just fill in a generic name like "Driver car 1" or similar. This is useful if you use phones associated with each car instead of with a person.

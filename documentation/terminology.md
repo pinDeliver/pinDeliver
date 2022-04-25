@@ -1,5 +1,4 @@
 # Terminology
-
 This terminology list describes common terms that are good to know when learning about pinDeliver.
 
 **Customer order**

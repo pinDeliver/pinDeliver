@@ -1,5 +1,4 @@
 # Settings
-
 The settings section is divided into several different tabs. Each tab has it´s own page. Just click the link in the menu tree or below to read more.
 
 Tabs:
