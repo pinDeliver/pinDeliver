@@ -27,11 +27,29 @@ Fill in all relevant fields in the sender card and click **Create** to save it. 
 |City|City to the sender. Will be shown to the end customer.|
 
 ### Settings
+It is possible to have specific settings for specific senders. This makes it possible to different settings depending on who the sender is. For example different SMS messages or triggers for SMS.
 
+pinDeliver always have a default sender, meaning that if you don´t specify the sender for a customer order the default sender will be used instead.
 
+![Settings](/images/sender_settings.png)
+
+|Field|Explanation|
+|-----|----------|
+|Allow change sender settings|If this is checked it is possible to have different settings for this specific sender compared to the default sender.|
+|Show packages on customer page|Check this to show the packages on the custoemr page.|
+|Allow digital signature|Check this to make it possible to use digital signature for the customer when receiving goods.|
 
 ### SMS
+When you want different SMS templates or triggers for a specific sender you have to specify them in this page. The different SMS templates and triggers are explained in the [SMS settings tab](settings_sms.md).
+
+![SMS](/images/sender_sms.png)
 
 ### Email
+When you want different email templates or triggers for a specific sender you have to specify them in this page. The different email templates and triggers are explained in the [Email settings tab](settings_email.md).
+
+![Email](/images/sender_email.png)
 
 ### Theme
+
+XXXXXXXXXXX
+![Theme](/images/sender_theme.png)

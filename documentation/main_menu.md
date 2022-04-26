@@ -1,6 +1,8 @@
 # Main menu
 
-the main menu in pinDeliver is self-adapting based on the activated company functionality and the user permissions. That means that the main menu doesn´t necessary looks as the images on this page.
+# INTE KLAR
+
+The main menu in pinDeliver is self-adapting based on the activated company functionality and the user permissions. That means that the main menu doesn´t necessary looks as the images on this page.
 
 ![Main menu](/images/main_menu.png)
 
