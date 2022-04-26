@@ -9,11 +9,6 @@ To create a new sender you select Admin/Senders from the main menu. A list of al
 
 ![Senders](/images/sender_list.png)
 
-* [Settings](senders_settings.md)
-* [SMS](senders_sms.md)
-* [Email](senders_email.md)
-* [Theme](senders_theme.md)
-
 ### Sender
 This is the main tab for the sender with information about name and contact information.
 Fill in all relevant fields in the sender card and click **Create** to save it. See image and field explanations below.

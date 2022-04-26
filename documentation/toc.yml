@@ -57,17 +57,6 @@
     href: users.md
   - name: Senders
     href: senders.md
-    items:
-    - name: Sender
-      href: senders_sender.md
-    - name: Settings
-      href: senders_settings.md
-    - name: SMS
-      href: senders_sms.md
-    - name: Email
-      href: senders_email.md
-    - name: Theme
-      href: senders_theme.md
 - name: Followup
   items:
   - name: Deliveries
