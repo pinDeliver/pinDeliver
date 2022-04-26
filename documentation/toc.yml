@@ -6,8 +6,12 @@
     href: definitions.md
   - name: Terminology
     href: terminology.md
+  - name: "Example scenarios"
+    href: example_scenarios.md
 - name: Process
   items:
+  - name: "Main menu"
+    href: main_menu.md
   - name: Order Excel upload
     href: order_excel_upload.md
   - name: "Route planning"
@@ -16,8 +20,8 @@
     href: driver_association.md
   - name: "Go-app for drivers"
     href: go_app_for_drivers.md
-  - name: "Customer information"
-    href: customer_information.md
+  - name: "Customer information page"
+    href: customer_information_page.md
 - name: Admin
   items:
   - name: Drivers
