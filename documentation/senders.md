@@ -50,6 +50,21 @@ When you want different email templates or triggers for a specific sender you ha
 ![Email](/images/sender_email.png)
 
 ### Theme
+In this tab you customize the look of the customer information page. The settings for the default sender will be used if you don´t add any colors or images to this settings tab. Since pinDeliver supports multiple senders (one per customer order) it is possible to give the customers different look & feel depending on the sender of the goods.
 
-XXXXXXXXXXX
 ![Theme](/images/sender_theme.png)
+
+|Field|Explanation|
+|-----|----------|
+|Light color|Background color in text areas on the customer information page.|
+|Text color|Text color for lead texts.|
+|Dark color|Background color on time schedule sign on first page.|
+|Sender logotype|Click button to upload file that will be visible in top left corner on the customer information page. Recommended size is 664x182 pixels.|
+|Delivery/pickup location icon|Click button to upload icon showing the pickup or dropoff location. Recommended size is 72x72 pixels.|
+|Truck current location icon|Click button to upload icon for showing current position of the vehicle. Recommended size is 72x72 pixels.|
+|Font URL|An url to a specific font for texts on the customer information page.|
+|Font name|Name for the font specified in the link above.|
+
+![Customer Information Page 1](/images/settings_theme_customer_page_1.png)
+
+![Customer Information Page 2](/images/settings_theme_customer_page_2.png)
