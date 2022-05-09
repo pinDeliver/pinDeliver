@@ -1,7 +1,5 @@
 # Main menu
 
-# INTE KLAR
-
 The main menu in pinDeliver is self-adapting based on the activated company functionality and the user permissions. That means that the main menu doesn´t necessary looks as the images on this page.
 
 ![Main menu](/images/main_menu.png)
@@ -38,13 +36,39 @@ After a search you will get a list of all customers that are found. You can also
 The list of customer orders are split in *Routed deliveries* and *Unrouted deliveries*. To see the specific order just click on the **Edit** or **Show** buttons to the right. If you want to see all customers orders on a route or planning order you can click their names instead.
 
 ### Messages
+It is possible to send custom messages through SMS or email. This functionality can be triggered from the different routes or manually by clicking on this menu item. It is possible to type an ad-hoc message or use templates.
+
+The message functionality is for example used to trigger manual messages when a route has been delayed for some reason and you want to message all remaining customers.
+More information about this functionality can be in [Send custom messages](send_custom_messages.md).
+
+![Search customer/delivery](/images/main_menu_messages.png)
 
 ### History
+Normally you do not have to remove or archive any orders after completion. But if an order is *Archived* you will find it under the History-section.
+
+![History](/images/main_menu_history.png)
 
 ### Followup
+Under *Followup* you find several reports and pages for showing statistics, finished orders etc. Each report is described more in [Followup](followup.md).
+
+![Followup](/images/main_menu_followup.png)
 
 ### Admin
+In the section *Admin* you find all available settings. These settings should be done before starting your first deliveries but you can off course change and add settings over time. Read more about these in [Settings](settings.md).
+
+![Admin](/images/main_menu_admin.png)
 
 ### API
+The API section describes the different standard methods used for REST communication to pinDeliver. These are always available and you must first add an API user, read more about this in [Users](users.md).
 
-### Company namer/User name
+Another way is to use pinDeliver Service Center as a middleware. Service Center can be used for data-population, business logic etc. This means that it will be easier for you as an integrator if the Service Center is used. Please contact pinDeliver before starting developing an integration.
+
+### Company name/User name
+By clicking on your username in the upper right corner you get a small menu with a few options:
+
+![Commpany/User](/images/main_menu_companyname_username.png)
+
+* Notifications - Smaller messages, for example about customers with addresses with low gps coordinate quality.
+* News - Release news and other news from pinDeliver.
+* My profile - Here you can change your own contact information, password, language setting etc.
+* Log out - To log out current user.

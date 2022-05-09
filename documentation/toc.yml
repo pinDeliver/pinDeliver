@@ -22,6 +22,8 @@
     href: go_app_for_drivers.md
   - name: "Customer information page"
     href: customer_information_page.md
+  - name: "Send custom messages"
+    href: send_custom_messages.md.md
 - name: Admin
   items:
   - name: Drivers
@@ -62,6 +64,7 @@
   - name: Senders
     href: senders.md
 - name: Followup
+  href: followup.md
   items:
   - name: Deliveries
     href: deliveries.md

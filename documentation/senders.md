@@ -36,7 +36,7 @@ pinDeliver always have a default sender, meaning that if you don´t specify the 
 |Field|Explanation|
 |-----|----------|
 |Allow change sender settings|If this is checked it is possible to have different settings for this specific sender compared to the default sender.|
-|Show packages on customer page|Check this to show the packages on the custoemr page.|
+|Show packages on customer page|Check this to show the packages on the customer page.|
 |Allow digital signature|Check this to make it possible to use digital signature for the customer when receiving goods.|
 
 ### SMS
@@ -59,12 +59,14 @@ In this tab you customize the look of the customer information page. The setting
 |Light color|Background color in text areas on the customer information page.|
 |Text color|Text color for lead texts.|
 |Dark color|Background color on time schedule sign on first page.|
-|Sender logotype|Click button to upload file that will be visible in top left corner on the customer information page. Recommended size is 664x182 pixels.|
+|Sender logotype|Click button to upload file that will be visible in top left corner on the customer information page. Recommended size is 664x182 pixels. It is also recommended to use transparent background.|
 |Delivery/pickup location icon|Click button to upload icon showing the pickup or dropoff location. Recommended size is 72x72 pixels.|
 |Truck current location icon|Click button to upload icon for showing current position of the vehicle. Recommended size is 72x72 pixels.|
 |Font URL|An url to a specific font for texts on the customer information page.|
 |Font name|Name for the font specified in the link above.|
 
-![Customer Information Page 1](/images/settings_theme_customer_page_1.png)
-
-![Customer Information Page 2](/images/settings_theme_customer_page_2.png)
+#### Examples of customer information page.
+<p float="center">
+  <img src="/images/settings_theme_customer_page_1.png" width="300" />
+  <img src="/images/settings_theme_customer_page_2.png" width="300" />
+</p>
