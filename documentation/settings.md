@@ -1,8 +1,6 @@
 # Settings
 
-# INTE KLAR
-
-The settings section is divided into several different tabs. Each tab has it´s own page. Just click the link in the menu tree or below to read more.
+The settings section (Admin/Settings) is divided into several different tabs. Each tab has it´s own page. Just click the link in the menu tree or below to read more.
 
 Tabs:
 * [Basic settings](settings_basic.md)

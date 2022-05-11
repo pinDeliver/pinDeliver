@@ -23,7 +23,7 @@
   - name: "Customer information page"
     href: customer_information_page.md
   - name: "Send custom messages"
-    href: send_custom_messages.md.md
+    href: send_custom_messages.md
 - name: Admin
   items:
   - name: Drivers
@@ -61,6 +61,8 @@
       href: settings_customer_page.md
   - name: Users
     href: users.md
+  - name: "Traffic restrictions"
+    href: traffic_restrictions.md
   - name: Senders
     href: senders.md
 - name: Followup
