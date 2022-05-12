@@ -67,6 +67,6 @@ In this tab you customize the look of the customer information page. The setting
 
 #### Examples of customer information page.
 <p float="center">
-  <img src="/images/settings_theme_customer_page_1.png" width="300" />
-  <img src="/images/settings_theme_customer_page_2.png" width="300" />
+  <img src="/images/sender_theme_customer_page_1.png" width="300" />
+  <img src="/images/sender_theme_customer_page_2.png" width="300" />
 </p>
