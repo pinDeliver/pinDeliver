@@ -1,8 +1,8 @@
 # SMS
 
-The main communication form in pinDeliver is through SMS since it is a very fast communication form. It is possible to have general SMS settings for account but it is also possible to have specific SMS settings for different senders. In that case you do the SMS settings under the specific sender. See [Senders](senders.md). If SMS settings is done for a specific sender that will override the setting described in this page. Remember that the explanations of the fields below is also valid for corresponding field from [Senders](senders.md).
+The main communication form in pinDeliver is through SMS since it is a very fast and reliable communication form. It is possible to have general SMS settings for the whole account but it is also possible to have specific SMS settings for different senders. In that case you do the SMS settings under the specific sender. See [Senders](senders.md). If SMS settings are done for a specific sender that will override the setting described in this page. Remember that the explanations of the fields below is also valid for corresponding field from [Senders](senders.md).
 
-As you see below several fields have the same purpose, that is to write message templates. These messages will be sent based on different triggers. All templates can have **aliases** (place holders) that replace an alias with a text from the customer order, for example customer name, estimated time of delivery. All **aliases** are described in the bug blue square to the right.
+As you see below several fields have the same purpose, that is to write message templates. These messages will be sent based on different triggers. All templates can have **aliases** (place holders) that replace an alias with a text from the customer order, for example customer name, estimated time of delivery. All **aliases** are described in the blue square to the right.
 
 It is important to think through which triggers you want to use. Some triggers often come very close in the work process and then that could be seen as spamming the customer.
 
