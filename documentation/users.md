@@ -43,7 +43,7 @@ On this tab you select which delivery groups a user should have access to. By de
 ![User delivery groups](/images/user_delivery_groups.png)
 
 ### Senders
-On this tab you select which senders a user should have access to. By default a user will have access to all senders and then nothing needs to be changed. But to limit the access you select the *Access only to the following senders* and then you just drag´n´drop the sendersfrom the red "No access"-square to the green "Access"-square to the left. You can also use the arrows between the squares to move all senders at once. (This is useful if a user should have access to more or less all denders. Give access to all and then remove the few that should not be accessed, or vice versa.)
+On this tab you select which senders a user should have access to. By default a user will have access to all senders and then nothing needs to be changed. But to limit the access you select the *Access only to the following senders* and then you just drag´n´drop the senders from the red "No access"-square to the green "Access"-square to the left. You can also use the arrows between the squares to move all senders at once. (This is useful if a user should have access to more or less all senders. Give access to all and then remove the few that should not be accessed, or vice versa.)
 
 ![User senders](/images/user_senders.png)
 
