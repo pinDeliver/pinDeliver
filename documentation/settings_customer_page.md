@@ -3,9 +3,13 @@
 This settings page is used to define what information and functionality the customer/recipient sees when clicking on the link to the status page.
 These settings are common for all orders for this account except for some smaller changes that can be made for a specific sender.
 
-# HÄR SKA VARA BILD AV KUNDSIDAN, ÄVEN EXPANDERAD
+<p float="center">
+  <img src="/images/pindeliver_customer_information_page1.png" width="300" />
+  <img src="/images/pindeliver_customer_information_page2.png" width="300" />
+</p>
 
 ![Customer page](/images/settings_customer_page.png)
+
 
 |Segment|Field|Explanation|
 |-----|----------|----------|
