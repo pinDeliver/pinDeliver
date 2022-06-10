@@ -27,6 +27,8 @@ These settings are common for all orders for this account except for some smalle
 ||Earliest next delivery day after current and number of additional delivery days after that|If a customer want to propose a new delivery day you can specify days ahead before a possible day.|
 ||Delivery days|Specifies which weekdays that should be possible to select for next delivery.|
 ||Exclude cancel on non delivery days|Often used to only make it possible to cancel on workdays.Example: the company doesn't have deliveries on Saturday-Sundays and "Minimum hours before departure for allowing cancel" is 24h. Then Monday's deliveries last possible cancellation period should be 24+24+24 before distribution starts.|
-
-
-# INTE KLART
+|Information to the customer about cancel delivery|Label for the Cancel button|Specify text that should be the label for the **Cancel** button.|
+||Label for the propose another day button|Specify text that should be the label for the **Propose another day** button.|
+||Confirmation message for the cancelling|This message is displayed when the customer clicks the Cancel button to ensure that the customer really wants to continue cancelling.|
+||Information before Cancel|This information is displayed to the customer with the Cancel button.|
+||Information after Cancel|This information is displayed to the customer after the Cancel action has been invoked by the user clicking the button.|

@@ -1,1 +1,1 @@
-# Add your excel order here!
+# How to upload orders from an Excel sheet
