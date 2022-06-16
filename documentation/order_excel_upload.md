@@ -8,15 +8,16 @@ Click the image below to see a clip about Excel upload:
 <img  alt="Excel Upload" src="/images/excel_order_movieclip_screenshot.png" width="600">
 </a>
 </p>
-
 The Excel sheet doesn't need to match a specific template. When you upload the Excel file you will need to map columns to fields in pinDeliver. The next time you upload an Excel file again you will see that pinDeliver remember your last field mapping so you only have to confirm that this file has the same structure. Mandatory fields are: Name, Address, Zip code, City and Packages. Packages can be handled in  two different ways. You can have one column for each package type (description) or you can have one column with all information in the same cell. If you have one column for each package type these columns must be at the end of the filed (to the right).
 
+### Example files ###
 Below you see example of two different Excel files. The first example shows package information in how packages are represented. In the first example you see two different columns, one column for number of *boxes* and another column for number of *bags*. In the second example those two values are merged in one column and separated with semicolon. The process below will show the first example.
 
 ![Excel example 1](/images/excel_order_example1.png)
 
 ![Excel example 2](/images/excel_order_example2.png)
 
+### How to upload Excel ###
 Start by clicking **Add order** to open the import pages.
 
 ![Excel order 1](/images/excel_order1.png)
