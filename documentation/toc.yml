@@ -14,8 +14,8 @@
     href: main_menu.md
   - name: Order Excel upload
     href: order_excel_upload.md
-  - name: "Route planning"
-    href: route_planning.md
+  - name: "Route optimization/Transport planning"
+    href: route_optimization_transport_planning.md
   - name: "Driver association"
     href: driver_association.md
   - name: "Go-app for drivers"
