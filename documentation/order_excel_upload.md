@@ -54,4 +54,4 @@ If you don't want to route optimize right now you can just click **Cancel** to j
 
 ![Excel order 5](/images/excel_order5.png)
 
-To learn about route optimization just go to [Route planning](route_planning.md).
+To learn about route optimization just go to [Route planning](route_optimization_transport_planning.md).
