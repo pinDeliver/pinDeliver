@@ -1,8 +1,10 @@
 # The Go app
 
-The pinDeliver Go app is the app for the driver, a tool for the driver. This is an app with a lot of functionality and it is also possible to use different settings to control what should be visible for the driver even though som information is mandatory.
+The pinDeliver Go app is a tool for the driver. This is an app with a lot of functionality and it is also possible to use different settings to control what should be visible for the driver even though some information is mandatory.
 
-We have developed two different apps with similar functionality but some important differencies. The web app is run directly in a web browser on the device which means that more or less all devices with a web browser can run this app. The so called Native app is developed for Android and iOS devices. The users can see a slightly different behaviour between the apps. In the web app all customers are loaded at once when opening the *Driving list* but in the native app each stop is loaded separately but automatically when finishing the previous stop. The Native app has support for scanning package numbers when loading and unloading and some other flows, for example returns.
+We have developed two different apps with similar functionality but some important differencies. The web app is run directly in a web browser on the device which means that more or less all devices with a web browser can run this app.
+
+The so called Native app is developed for Android and iOS devices. The users can see a slightly different behavior between the apps. In the web app all customers are loaded at once when opening the *Driving list* but in the native app each stop is loaded separately but automatically when finishing the previous stop. The Native app has support for scanning package numbers when loading and unloading and some other flows, for example returns.
 
 The apps themselves are very intuitive and doesn´t need much of education for the drivers. The main task for the drivers is just to select what kind of stop they make. They have three different stop types to select from with similar lead texts in the different apps:
 
