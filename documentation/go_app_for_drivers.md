@@ -8,7 +8,7 @@ The so called Native app is developed for Android and iOS devices. The users can
 
 Click the image below to see a clip about the installed Native app:
 <p float="right">
-<a href="https://youtu.be/Jqq4lCGpLJ8" target="_blank">
+<a href="https://youtu.be/wSbx6dpNieA" target="_blank">
 <img  alt="Go App Native" src="/images/go_app_native_movieclip_screenshot.png" width="600">
 </a>
 </p>
