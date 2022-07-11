@@ -9,10 +9,10 @@ The so called Native app is developed for Android and iOS devices. The users can
 Click the screenshots below to see a clips about the different Go Apps.
 
 <p float="right">
-<a href="https://youtu.be/wSbx6dpNieA" target="_blank">
-<img alt="Go App Native" src="/images/go_app_native_movieclip_screenshot.png" width="300">
+<a href="https://youtu.be/tRH7dmEi-X0" target="_blank">
+<img alt="Go App Web" src="/images/go_app_web_movieclip_screenshot.png" width="300">
 </a>
 <a href="https://youtu.be/wSbx6dpNieA" target="_blank">
-<img alt="Go App Web" src="/images/go_app_web_movieclip_screenshot.png" width="300">
+<img alt="Go App Native" src="/images/go_app_native_movieclip_screenshot.png" width="300">
 </a>
 </p>
