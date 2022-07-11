@@ -6,9 +6,13 @@ We have developed two different apps with similar functionality but some importa
 
 The so called Native app is developed for Android and iOS devices. The users can see a slightly different behavior between the apps. In the web app all customers are loaded at once when opening the *Driving list* but in the native app each stop is loaded separately but automatically when finishing the previous stop. The Native app has support for scanning package numbers when loading and unloading and some other flows, for example returns.
 
-Click the image below to see a clip about the installed Native app:
+Click the screenshots below to see a clips about the different Go Apps.
+
 <p float="right">
 <a href="https://youtu.be/wSbx6dpNieA" target="_blank">
-<img  alt="Go App Native" src="/images/go_app_native_movieclip_screenshot.png" width="600">
+<img alt="Go App Native" src="/images/go_app_native_movieclip_screenshot.png" width="300">
+</a>
+<a href="https://youtu.be/wSbx6dpNieA" target="_blank">
+<img alt="Go App Web" src="/images/go_app_web_movieclip_screenshot.png" width="300">
 </a>
 </p>
