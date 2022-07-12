@@ -10,7 +10,7 @@
     href: example_scenarios.md
 - name: Process
   items:
-  - name: "Main menu3"
+  - name: "Main menu"
     href: main_menu.md
   - name: Order Excel upload
     href: order_excel_upload.md
