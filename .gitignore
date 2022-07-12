@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 # Site folder
 _site/
+.DS_Store
