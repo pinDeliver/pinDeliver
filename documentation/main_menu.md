@@ -15,8 +15,16 @@ Orders that are uploaded/imported to the *Inbox* are found by clicking on the gr
 
 ![Overview](/images/main_menu_overview.png)
 
-### Search customer/delivery
-To easily find a customer order you can use the *Search customer/delivery*-functionality from the main menu. It is possible to search for customers based on different criteria. You can select specific fields to search in or just keep all fields marked. If you for example search for *Göteborg* you will get all customer orders having *Göteborg* in the name or in city unless you change the search fields.
+### Search
+From the *Search* menu you have two different options.
+
+* Search customer/delivery - Search for a customer order
+* Search package - Search for a specific package and get more details
+
+![Search customer/delivery](/images/main_menu_search_customer_delivery0.png)
+
+#### Search customer/delivery
+To easily find a customer order you can use the *Search customer/delivery*-functionality from *Search* on the main menu. It is possible to search for customers based on different criteria. You can select specific fields to search in or just keep all fields marked. If you for example search for *Göteborg* you will get all customer orders having *Göteborg* in the name or in city unless you change the search fields.
 
 * Tracking number
 * Customer number
@@ -27,7 +35,7 @@ To easily find a customer order you can use the *Search customer/delivery*-funct
 * Phone
 * Reference    
 
-![Search customer/delivery](/images/main_menu_search_customer_delivery.png)
+![Search customer/delivery](/images/main_menu_search_customer_delivery1.png)
 
 After a search you will get a list of all customers that are found. You can also see how many orders you have for a that customer. By clicking on the customer you will come to a list showing all customer orders for this customer.
 
@@ -35,9 +43,11 @@ After a search you will get a list of all customers that are found. You can also
 
 The list of customer orders are split in *Routed deliveries* and *Unrouted deliveries*. To see the specific order just click on the **Edit** or **Show** buttons to the right. If you want to see all customers orders on a route or planning order you can click their names instead.
 
-### Search package
+#### Search package
+To easily find a package you can use the *Search package*-functionality from *Search* on the main menu.
 
-EJ FÄRDIGT!
+
+**EJ FÄRDIGT!**
 
 ### Messages
 It is possible to send custom messages through SMS or email. This functionality can be triggered from the different routes or manually by clicking on this menu item. It is possible to type an ad-hoc message or use templates.
