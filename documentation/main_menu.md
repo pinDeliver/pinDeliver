@@ -35,6 +35,10 @@ After a search you will get a list of all customers that are found. You can also
 
 The list of customer orders are split in *Routed deliveries* and *Unrouted deliveries*. To see the specific order just click on the **Edit** or **Show** buttons to the right. If you want to see all customers orders on a route or planning order you can click their names instead.
 
+### Search package
+
+EJ FÄRDIGT!
+
 ### Messages
 It is possible to send custom messages through SMS or email. This functionality can be triggered from the different routes or manually by clicking on this menu item. It is possible to type an ad-hoc message or use templates.
 

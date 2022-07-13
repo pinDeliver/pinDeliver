@@ -24,4 +24,4 @@ The Go app also supports functions for:
 * Driving records
 * Temperature reporting
 
-These functionalites are not shown in the video clips above.
+These functions are not shown in the video clips above.
