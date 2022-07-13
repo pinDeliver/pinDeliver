@@ -21,9 +21,10 @@ It is important to think through which triggers you want to use. Some triggers o
 ||Send SMS reminder to a customer when the driver is within X minutes from the destination|SMS reminder. Gets sent X minutes from destination. X will be replaced by the reminder time set in *Reminder time, when the driver is X minutes from customer stop.*|
 ||Send SMS when a driver reports that a delivery has been made, but the customer was not home.|Sends SMS with time of successful delivery when customer was not home. If the driver has taken a photo that will be shown on the *Customer information page* that could be linked in the message.|
 ||Send SMS to customer when a driver reports that a delivery has not been made|Sends SMS to inform customer that delivery was unsuccessful. If the driver has taken a photo that will be shown on the *Customer information page* that could be linked in the message.|
+||Send SMS when a customer is created.|This message will be sent when a customer is created.|
 |**Collect**|Send SMS when the route is locked|When a route is being locked this message will be sent to all customers in the route.|
 ||Activate manual SMS button|When the button is clicked this message will be sent to all customers in the collect order.|
-||Send SMS to customers when the driver starts collect|When the driver starts the collect this message will be sent to all customers in the collect order.|
+||Send SMS to customers when the driver starts collect|When the collection order is started this message will be sent to all customers in the collect order.|
 ||Send SMS to customers when the driver is finished at the depot|When click & collect is finished at the depot this message will be sent to all customers in the collect order.|
 ||Send SMS to customers when delivery is not collected|When the driver reports the route is completed this message will be sent to all customers that have not collected their deliveries.|
-|**Delivery and collect SMS**|Send SMS when a customer is created.|This message will be sent when a customer is created.|
+||Send SMS when a customer is created.|This message will be sent when a customer is created.|

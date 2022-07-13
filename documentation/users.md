@@ -32,27 +32,8 @@ The first settings tab is the basic settings with name and similar values.
 |Confirm password|type in the same password again.|
 |Api key|Shows the generated api key for an api user.|
 
-### Company
-On this tab you select which companies the user should have access to. For most users and companies you will only be able to select your own company.
-
-![User company](/images/user_company.png)
-
-### Delivery groups
-On this tab you select which delivery groups a user should have access to. By default a user will have access to all delivery groups and then nothing needs to be changed. But to limit the access you select the *Access only to the following delivery groups* and then you just drag´n´drop the delivery group from the red "No access"-square to the green "Access"-square to the left. You can also use the arrows between the squares to move all groups at once. (This is useful if a user should have access to more or less all delivery groups. Give access to all and then remove the few that should not be accessed, or vice versa.)
-
-![User delivery groups](/images/user_delivery_groups.png)
-
-### Senders
-On this tab you select which senders a user should have access to. By default a user will have access to all senders and then nothing needs to be changed. But to limit the access you select the *Access only to the following senders* and then you just drag´n´drop the senders from the red "No access"-square to the green "Access"-square to the left. You can also use the arrows between the squares to move all senders at once. (This is useful if a user should have access to more or less all senders. Give access to all and then remove the few that should not be accessed, or vice versa.)
-
-![User senders](/images/user_senders.png)
-
 ## Permissions
-Once the user is created you need to assign permissions for the user. Permissions is equal to different functionality in the platform. It is possible to select very or individual functionalities for the user. Below you can see recommended "user permission groups" for different user types. But this is all up to your company. To specify permissions for a user just click on the tab *Permissions* in the user list.
-
-![Users permissons](/images/users_permissions.png)
-
-Click the username to open the user permission card for the selected user. Select the permissions you want for the user and then click **Save permissions**. See below for an explanation of the different permissions that are available.
+Once the user is created you need to assign permissions for the user. Permissions is equal to different functionality in the platform. It is possible to select individual functionalities for the user. Below you can see recommended "user permission groups" for different user types. But this is all up to your company.
 
 ![User permissons](/images/user_permissions.png)
 
@@ -69,10 +50,10 @@ Click the username to open the user permission card for the selected user. Selec
 |Manage orders|Can add, change and delete planning orders and customer orders.|
 |Send customer messages manually|Can trigger messages to the customers manually from Office.|
 |API documentation|Can access the API menu.|
-|Manage surveys|Can add, change and delete surveys. Can activate and deactivate surveys.|
-|Manage traffic restrictions|Can add, change and delete traffic restrictions for the whole license.|
 |Administer company|Can administrate company settings that are common for the whole license (all delivery groups, senders etc).|
 |Can view driver contact details|Can view driver details like phone number and email.|
+|Manage surveys|Can add, change and delete surveys. Can activate and deactivate surveys.|
+|Manage traffic restrictions|Can add, change and delete traffic restrictions for the whole license.|
 
 ### Permission groups/User roles
 You don´t find any predefined permission groups (or user roles) in pinDeliver. This is of course because each company can have different needs. Below you can see a suggestion for user roles. A specific user can of course have two or more roles and then you can just combine permissions for that user.
@@ -95,7 +76,22 @@ You don´t find any predefined permission groups (or user roles) in pinDeliver. 
 |Manage orders|X||||
 |Send customer messages manually|X||||
 |API documentation||||X|
-|Manage surveys||X|||
-|Manage traffic restrictions|||X|X|
 |Administer company||||X|
 |Can view driver contact details|X|X|||
+|Manage surveys||X|||
+|Manage traffic restrictions|||X|X|
+
+### Company
+On this tab you select which companies the user should have access to. For most users and companies you will only be able to select your own company.
+
+![User company](/images/user_company.png)
+
+### Delivery groups
+On this tab you select which delivery groups a user should have access to. By default a user will have access to all delivery groups and then nothing needs to be changed. But to limit the access you select the *Access only to the following delivery groups* and then you just drag´n´drop the delivery group from the red "No access"-square to the green "Access"-square to the left. You can also use the arrows between the squares to move all groups at once. (This is useful if a user should have access to more or less all delivery groups. Give access to all and then remove the few that should not be accessed, or vice versa.)
+
+![User delivery groups](/images/user_delivery_groups.png)
+
+### Senders
+On this tab you select which senders a user should have access to. By default a user will have access to all senders and then nothing needs to be changed. But to limit the access you select the *Access only to the following senders* and then you just drag´n´drop the senders from the red "No access"-square to the green "Access"-square to the left. You can also use the arrows between the squares to move all senders at once. (This is useful if a user should have access to more or less all senders. Give access to all and then remove the few that should not be accessed, or vice versa.)
+
+![User senders](/images/user_senders.png)
