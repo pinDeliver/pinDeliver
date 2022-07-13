@@ -44,10 +44,15 @@ After a search you will get a list of all customers that are found. You can also
 The list of customer orders are split in *Routed deliveries* and *Unrouted deliveries*. To see the specific order just click on the **Edit** or **Show** buttons to the right. If you want to see all customers orders on a route or planning order you can click their names instead.
 
 #### Search package
-To easily find a package you can use the *Search package*-functionality from *Search* on the main menu.
+To easily find a package you can use the *Search package*-functionality from *Search* on the main menu. Select the package in the list of packages. You can filter on *Date, Delivery Group, Route Name* and *Package Id*. In the list you see the current status of the package.
 
+![Search packages](/images/main_menu_search_package1.png)
 
-**EJ FÄRDIGT!**
+To see a detailed view of the package lifecycle you just click the *Package Id*. Ont he following page you will see timestamps of all events for the package and you can also follow the physical movement on a map.
+
+If something has gone wrong and you want to change the package status you can mark the package in the list ans select **Action / Return to the previous status**.
+
+![Search packages](/images/main_menu_search_package2.png)
 
 ### Messages
 It is possible to send custom messages through SMS or email. This functionality can be triggered from the different routes or manually by clicking on this menu item. It is possible to type an ad-hoc message or use templates.
