@@ -1,5 +1,5 @@
 # Definitions
-The table below shows short explanations of basic concepts that are good when learning about pinDeliver.
+The table below shows short explanations of basic concepts that are good when learning more about pinDeliver.
 
 |Symbol|Definition|Explanation|
 |---------|-----------------------------------------|-----------------|
