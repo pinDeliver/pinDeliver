@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>The Go app </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="The Go app ">
+    <meta name="generator" content="docfx 2.59.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="the-go-app">The Go app</h1>
+
+<p>The pinDeliver Go app is a tool for the driver. This is an app with a lot of functionality and it is also possible to use different settings to control what should be visible for the driver even though some information is mandatory.</p>
+<p>We have developed two different apps with similar functionality but some important differencies. The web app is run directly in a web browser on the device which means that more or less all devices with a web browser can run this app.</p>
+<p>The so called Native app is developed for Android and iOS devices. The users can see a slightly different behavior between the apps. In the web app all customers are loaded at once when opening the <em>Driving list</em> but in the native app each stop is loaded separately but automatically when finishing the previous stop. The Native app has support for scanning package numbers when loading and unloading and some other flows, for example returns.</p>
+<p>The apps themselves are very intuitive and doesn´t need much of education for the drivers. The main task for the drivers is just to select what kind of stop they make. They have three different stop types to select from with similar lead texts in the different apps:</p>
+<ul>
+<li><span style="color:green"><strong>OK</strong></span> - Order delivered/picked up and the customer was home</li>
+<li><span style="color:orange"><strong>OK, NOT AT HOME</strong></span> - Order delivered/picked up but the customer was not home. Often combined with a photo.</li>
+<li><span style="color:red"><strong>NOT OK</strong></span> - Order/Pickup could not be handled. The driver normally select a deviation code.</li>
+</ul>
+<h4 id="difference-between-go-web-app-and-native-app">Difference between Go web-app and native app</h4>
+<p float="center">
+  <img src="/images/pindeliver_go_webapp.png" width="300">
+  <img src="/images/pindeliver_go_native.png" width="300">
+</p>
+<p>It is possible to select behavior data to view with some settings. See settings screenshot and explanation below.</p>
+<p><img src="/images/settings_the_go_app.png" alt="Go"></p>
+<table>
+<thead>
+<tr>
+<th>Segment</th>
+<th>Field</th>
+<th>Explanation</th>
+<th style="text-align: center;">Web app supported</th>
+<th style="text-align: center;">Native app supported</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>General</strong></td>
+<td>Enable using Go Native app</td>
+<td>This will enable the use of the Native app.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td></td>
+<td>Update the driver's position during the route</td>
+<td>If this is set then the driver's position will be updated every minute while the route is active. Else the latest known position, which will be the latest stop, will be shown.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td></td>
+<td>Minutes before planned starting time that the driver is allowed to start the route</td>
+<td>Until the specified number of minutes before the planned route's starting time it will not be possible to start the route. After that, until the planned starting time, a warning will be displayed.</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td></td>
+<td>Image for delivery-not-home</td>
+<td>This will open the phone camera automatically when a a stop is handled as <strong>NOT OK</strong>. The photo will be visible on the customer page.</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td></td>
+<td>Comment on delivery-not-home</td>
+<td>Adds the possibility to leave a comment at delivery-not-home. Can only be set if &quot;Image for delivery-not-home&quot; is set.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Image for delivery-not-delivered</td>
+<td>Save and show image on delivery-not-delivered. (The image will appear at the customer page)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Image for ok-delivered</td>
+<td>Save and show image on ok-delivered. (The image will appear at the customer page)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Comment on delivery-ok</td>
+<td>Adds the possibility to leave a comment at delivery-ok. Can only be set if &quot;Image for delivery-ok&quot; is set.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Waze GPS-navigator</td>
+<td>When this is set a button will be displayed on each delivery card in the GO app. The button will start Waze as GPS navigator if it is installed, or else Waze web version will be started. Click here to read more about <a href="https://www.waze.com/live-map/">Waze GPS-navigator</a>.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Display time window</td>
+<td>When display time window is set, the delivery time window will be displayed in the GO app.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Display sender</td>
+<td>When display sender is set, the delivery sender will be displayed in the GO app.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Package loading</td>
+<td>Will give the driver access to search. Search result will help the driver to load packages on to the correct truck or car.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Use offloading scan</td>
+<td>Require the driver to scan goods for offloading on arrive at a stop.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Handle returns</td>
+<td>The driver may receive returnable goods from the customer.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Driving record</td>
+<td>The driver reports a driving record for the route. Data that is reported is for example vehicle start and stop mileage.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Register stop temperature</td>
+<td>The driver reports good's temperature at each stop.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td><strong>Driver SMSes</strong></td>
+<td>SMS to driver when the route has been assigned</td>
+<td>The SMS is sent when a route is assigned and SMS has been selected for communicating the message to the driver.</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td><strong>Driver emails</strong></td>
+<td>Email to driver when the route has been assigned</td>
+<td>The email is sent when a route is assigned and email has been selected for communicating the message to the driver.</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td><strong>Deviation codes</strong></td>
+<td>Ordering</td>
+<td>Used to change order of the deviation codes that the driver can choose from. Just drag'n'drop the deviation codes when you have created them.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Text description</td>
+<td>Description visible for driver in the Go App.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Requires comment</td>
+<td>Defines if the driver needs ta write a comment or not.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td></td>
+<td>Active</td>
+<td>Activate a deviation code by turning on and off.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/pinDeliver/pinDeliver/blob/master/documentation/settings_go_app.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
