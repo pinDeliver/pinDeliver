@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>How to upload orders from an Excel sheet </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="How to upload orders from an Excel sheet ">
+    <meta name="generator" content="docfx 2.59.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="how-to-upload-orders-from-an-excel-sheet">How to upload orders from an Excel sheet</h1>
+
+<p>A simple way to import orders to pinDeliver is through an Excel sheet. Then you don't need to develop an integration but on the other hand this task is always needed. Some companies start with the Excel import functionality and then develop an integration from their ERP or WMS as phase 2.</p>
+<p>Click the image below to see a clip about Excel upload:</p>
+<p float="right">
+<a href="https://youtu.be/3P3RuAGnjjM" target="_blank">
+<img alt="Excel Upload" src="/images/excel_order_movieclip_screenshot.png" width="600">
+</a>
+</p>
+The Excel sheet doesn't need to match a specific template. When you upload the Excel file you will need to map columns to fields in pinDeliver. The next time you upload an Excel file again you will see that pinDeliver remember your last field mapping so you only have to confirm that this file has the same structure. Mandatory fields are: Name, Address, Zip code, City and Packages. Packages can be handled in  two different ways. You can have one column for each package type (description) or you can have one column with all information in the same cell. If you have one column for each package type these columns must be at the end of the filed (to the right).
+<h3 id="example-files">Example files</h3>
+<p>Below you see example of two different Excel files. The first example shows package information in how packages are represented. In the first example you see two different columns, one column for number of <em>boxes</em> and another column for number of <em>bags</em>. In the second example those two values are merged in one column and separated with semicolon. The process below will show the first example.</p>
+<p><img src="/images/excel_order_example1.png" alt="Excel example 1"></p>
+<p><img src="/images/excel_order_example2.png" alt="Excel example 2"></p>
+<h3 id="how-to-upload-excel">How to upload Excel</h3>
+<p>Start by clicking <strong>Add order</strong> to open the import pages.</p>
+<p><img src="/images/excel_order1.png" alt="Excel order 1"></p>
+<p>In the import page you specify <em>Order name</em>, <em>Delivery Group</em> and <em>Delivery date</em> before you select your Excel file by clicking <strong>Choose file</strong>. After that you click <strong>Upload Excel file</strong>. If you choose <em>Upload to inbox</em> no order will be created. That will be done from the inbox later.</p>
+<p><img src="/images/excel_order2.png" alt="Excel order 2"></p>
+<p>If it is the first time you import an Excel file you will see a lot of red warnings since you have not yet mapped the Excel columns to pinDeliver fields. Mandatory fields are: Name, Address, Zip code, City and Packages.</p>
+<p><img src="/images/excel_order3.png" alt="Excel order 3"></p>
+<p>In this example I have chosen to map the following fields (in order):</p>
+<ul>
+<li>Tracking number</li>
+<li>Customer's name</li>
+<li>Address</li>
+<li>Zip</li>
+<li>City</li>
+<li>Mobile phone</li>
+<li>Customer info 1</li>
+<li>Time window start</li>
+<li>Time window end</li>
+<li>Weight units</li>
+<li>Volume units</li>
+<li>Packages start (if the field would be as in example 2 you use <em>Packages</em> instead)</li>
+<li>(Not selected) - since we use <em>Packages start</em></li>
+</ul>
+<p>When you have mapped all columns you want (you do not need to map all columns) you click <strong>Create order</strong>. If these orders are supposed to be collected by the customer you need to select <em>Make the order a collection order</em> first, otherwise you will need to do the import all over.</p>
+<p><img src="/images/excel_order4.png" alt="Excel order 4"></p>
+<p>If all orders have correct addresses that can be looked up with acceptable latitude and longitude you will be directed to the optimization page where you can select with vehicles you want to use. See below.
+If you don't want to route optimize right now you can just click <strong>Cancel</strong> to just import your customer orders.</p>
+<p><img src="/images/excel_order5.png" alt="Excel order 5"></p>
+<p>To learn about route optimization just go to <a href="route_optimization_transport_planning.html">Route planning</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/pinDeliver/pinDeliverEducation/blob/master/documentation/order_excel_upload.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
