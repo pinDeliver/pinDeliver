@@ -56,10 +56,10 @@ In this tab you customize the look of the customer information page. The setting
 
 |Field|Explanation|
 |-----|----------|
-|Light color|Background color in text areas on the customer information page.|
-|Text color|Text color for lead texts.|
-|Dark color|Background color on time schedule sign on first page.|
-|Sender logotype|Click button to upload file that will be visible in top left corner on the customer information page. Recommended size is 664x182 pixels. It is also recommended to use transparent background.|
+|Light color|Background color in text areas on the customer information page. A recommended color code is #F0F0F0 since is is a bright but not white background.|
+|Text color|Text color for lead texts (see explaining text under the field **Driver notes** in right example image below).|
+|Dark color|Background color on time schedule sign on first page and header texts (see header text **Driver notes** in right example image below).|
+|Sender logotype|Click button to upload file that will be visible in top left corner on the customer information page. Recommended size is 664x182 pixels. It is also recommended to use transparent background to get the best look.|
 |Delivery/pickup location icon|Click button to upload icon showing the pickup or dropoff location. Recommended size is 72x72 pixels.|
 |Truck current location icon|Click button to upload icon for showing current position of the vehicle. Recommended size is 72x72 pixels.|
 |Font URL|An url to a specific font for texts on the customer information page.|
