@@ -18,8 +18,8 @@
     href: route_optimization_transport_planning.md
   - name: "Go-app for drivers"
     href: go_app_for_drivers.md
-  - name: "Customer information page"
-    href: customer_information_page.md
+  - name: "Customer communication"
+    href: customer_communication.md
   - name: "Send custom messages"
     href: send_custom_messages.md
 - name: Admin
