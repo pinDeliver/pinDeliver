@@ -14,9 +14,12 @@ Here we have collected a few example scenarios that might help you in "how to th
   - 8 drivers
   - 1 sender (your own company)
   - customer communication with SMS
+* Sender branding
 
 
-  ## Small company with deliveries (no pickups)
-  
+## Small company with deliveries (no pickups)
 
-  ## Medium company with deliveries (no pickups)
+
+## Medium company with deliveries (no pickups)
+
+## Sender branding

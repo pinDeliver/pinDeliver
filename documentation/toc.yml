@@ -18,6 +18,8 @@
     href: route_optimization_transport_planning.md
   - name: "Go-app for drivers"
     href: go_app_for_drivers.md
+  - name: "Click & Collect"
+    href: click_and_collect.md
   - name: "Customer communication"
     href: customer_communication.md
   - name: "Send custom messages"

@@ -9,3 +9,6 @@ This page describes the most common communication workflow with the following me
 * Delivery update
 * After delivery if customer was not home
 * Delivery could not be completed
+
+
+# INTE KLART
