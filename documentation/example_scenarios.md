@@ -18,6 +18,7 @@ Here we have collected a few example scenarios that might help you in "how to th
 
 
 ## Small company with deliveries (no pickups)
+This scenario describes a typical setup for a smaller company.
 
 
 ## Medium company with deliveries (no pickups)
