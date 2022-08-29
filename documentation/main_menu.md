@@ -68,7 +68,7 @@ Normally you do not have to remove or archive any orders after completion. But i
 ![History](/images/main_menu_history.png)
 
 ### Followup
-Under *Followup* you find several reports and pages for showing statistics, finished orders etc. Each report is described more in [Followup](followup.md).
+Under *Followup* you find several reports and pages for showing statistics, finished orders etc. 
 
 ![Followup](/images/main_menu_followup.png)
 

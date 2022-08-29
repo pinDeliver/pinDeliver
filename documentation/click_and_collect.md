@@ -1,6 +1,6 @@
 # Click & Collect
 
-With pinDeliver Click & Collect functionality you get a professional approach when your customers come to your warehouse to pickup their goods themselves. The customer orders are created in the same way as regular delivery orders.  
+With pinDeliver Click & Collect functionality you get a professional approach when your customers come to your warehouse to pickup their goods themselves. The customer orders are created in the same way as regular delivery orders. Remember that when using Click & Collect your *Delivery Group* must be setup to use depot.
 
 If you upload order from Excel it is recommended to upload all customer orders for a day at once. Then you will have all customer orders grouped in one collection order. If you upload through Excel you need to mark the checkbox *Make the order a collection order*, see image below. If the orders instead are created through an integration the order type should be **collect** and then it is also possible to add orders to an existing collection order, even if the collection order has been locked or started.
 

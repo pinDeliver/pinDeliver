@@ -17,11 +17,23 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "documentation/customer_information_page.md",
+      "source_relative_path": "documentation/click_and_collect.md",
       "output": {
         ".html": {
-          "relative_path": "documentation/customer_information_page.html",
-          "hash": "z+RqZ40NEUD7slnIrP4dgEPd6iKQQRDxnjeFA6uObw0="
+          "relative_path": "documentation/click_and_collect.html",
+          "hash": "5KV3KVzgnXQ3rP+AtN/+OZs0UGWSqcNQAsWORF2Icdk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/customer_communication.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/customer_communication.html",
+          "hash": "acCt52QqKC2PgIE6vYor1C6sMXoWuX5IFST2IokU350="
         }
       },
       "is_incremental": true,
@@ -34,18 +46,6 @@
         ".html": {
           "relative_path": "documentation/definitions.html",
           "hash": "218+Z0a38kqQm49l8bl9+PPsmVz3Vl/8r8ac+h3f2o8="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "documentation/deliveries.md",
-      "output": {
-        ".html": {
-          "relative_path": "documentation/deliveries.html",
-          "hash": "NSy1NCWplV2Iu0API2NUMeQF3VNBq2oj/NQ76admdnc="
         }
       },
       "is_incremental": true,
@@ -81,19 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/example_scenarios.html",
-          "hash": "9LXPcFSC5sNGANzW2itbfPCW3T+YFePED0L/fMehnJY="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "documentation/followup.md",
-      "output": {
-        ".html": {
-          "relative_path": "documentation/followup.html",
-          "hash": "9iIeL++p+drtUMz7yARaGOLmaVxWSgLZsJTgjCt9u+E="
+          "hash": "CuwVGF1r2HcWKK5Z/dblUzr922yarjcAIp/TIX278YI="
         }
       },
       "is_incremental": true,
@@ -105,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/get_started.html",
-          "hash": "3wRoWfnNHwricfM8uUjXVNTNjkDcwyIh1ODHC0EAyqk="
+          "hash": "Ii19GV/SzSqrl7oZ5bxIPcsXQsOXC/AFGsBszjDQFkU="
         }
       },
       "is_incremental": true,
@@ -125,11 +113,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "documentation/interfaces.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/interfaces.html",
+          "hash": "faPs1nwswQBa+0MpGhqpdk9drWim7i0g3T/QiNodjmw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "documentation/main_menu.md",
       "output": {
         ".html": {
           "relative_path": "documentation/main_menu.html",
-          "hash": "HaycafuvHzuRW2Nqc1mp/V9SdDw6/vvzKkYeDAxgZ7c="
+          "hash": "mwYo6TIqY6pzqw0UjZfuoqXAUMg/Nek8ybdzrTQFehs="
         }
       },
       "is_incremental": true,
@@ -142,54 +142,6 @@
         ".html": {
           "relative_path": "documentation/order_excel_upload.html",
           "hash": "oDW9JNc16Zf7Xm4rzbU84viEXx8BZvw4KhXGOzp7YzU="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "documentation/performance_report.md",
-      "output": {
-        ".html": {
-          "relative_path": "documentation/performance_report.html",
-          "hash": "GrT711Bn6NvJjgQT5YLlnPHKRS/aoxJ5WkktVD0nPuc="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "documentation/real_time_follow_up.md",
-      "output": {
-        ".html": {
-          "relative_path": "documentation/real_time_follow_up.html",
-          "hash": "eIMxUvPMZXp9efLZdcvafsYTiH0/SvoXZUGam+18J/U="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "documentation/real_time_map.md",
-      "output": {
-        ".html": {
-          "relative_path": "documentation/real_time_map.html",
-          "hash": "vLlLCpiW6+18fojkapkzEXgLUPwjB+mr5t3ZBTHxLo0="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "documentation/route_assignments.md",
-      "output": {
-        ".html": {
-          "relative_path": "documentation/route_assignments.html",
-          "hash": "OtGHzXbTvNI9TRUGg8+I2vhiFn5zavoGevfBbO+13AI="
         }
       },
       "is_incremental": true,
@@ -213,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/send_custom_messages.html",
-          "hash": "xz37jWBgp0zhxicZmpXHxKuezRO6sMw+p5Zvcu824P4="
+          "hash": "RHWQ6iI0LNfbupIRfVPvYls3vQVxtn2anuXmsaoKvnM="
         }
       },
       "is_incremental": true,
@@ -225,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/senders.html",
-          "hash": "P9sXjt4I+Q+nvugPFtaBwpscg+oAhfl7Kpbkrm1iWtA="
+          "hash": "Wj8NofcTGF7DzLRLRcgXC0mE0Wz+Ccd/iFK+MtFNqZU="
         }
       },
       "is_incremental": true,
@@ -405,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/toc.html",
-          "hash": "/2VCPYJSUD3Dz6y/sXiBi93ZxBvTFDdZRlj2MvI+zas="
+          "hash": "o/QIG356djjkUQB1HeaKSbczgemVswZvAp+MOqyIzT4="
         }
       },
       "is_incremental": false,
@@ -418,18 +370,6 @@
         ".html": {
           "relative_path": "documentation/traffic_restrictions.html",
           "hash": "XVNeX7sr7/KzAxX1diCJuQ9CyZAOr9/q85cmh9/9CTg="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "documentation/unhandled_deliveries.md",
-      "output": {
-        ".html": {
-          "relative_path": "documentation/unhandled_deliveries.html",
-          "hash": "2lrz7tPa68Snnu877p9Ak6cx4/UF1jZqwjU5Q8Vc4Vg="
         }
       },
       "is_incremental": true,
@@ -469,6 +409,215 @@
         }
       },
       "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_customer_info_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_customer_info_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_customer_info_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_customer_info_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_customer_info_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_customer_info_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_hubapp_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_hubapp_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_hubapp_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_hubapp_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_sms_customer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_sms_customer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_sms_customer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_sms_customer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_sms_customer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_sms_customer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/click_collect_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/click_collect_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/click_collect_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/click_collect_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/click_collect_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/click_collect_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/click_collect_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/click_collect_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/click_collect_create_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/click_collect_create_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_loaded.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_loaded.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_locked.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_locked.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_notcompleted.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_notcompleted.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_nothome.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_nothome.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_started.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_started.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_update.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_update.png"
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -726,6 +875,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/interface_office.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/interface_office.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/interface_service_center.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/interface_service_center.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/main_menu.png",
       "output": {
         "resource": {
@@ -785,6 +956,39 @@
       "output": {
         "resource": {
           "relative_path": "images/main_menu_messages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_messages_create_template.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_messages_create_template.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_messages_select_customers.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_messages_select_customers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_messages_show_selection.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_messages_show_selection.png"
         }
       },
       "is_incremental": false,
@@ -1366,8 +1570,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 39,
-          "skipped_file_count": 39
+          "total_file_count": 34,
+          "skipped_file_count": 34
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

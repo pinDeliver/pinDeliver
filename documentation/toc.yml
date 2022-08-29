@@ -2,6 +2,8 @@
   items:
   - name: "Get started"
     href: get_started.md
+  - name: Interfaces
+    href: interfaces.md
   - name: Definitions
     href: definitions.md
   - name: Terminology
