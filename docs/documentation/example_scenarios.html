@@ -93,6 +93,15 @@
 <li>customer communication with SMS</li>
 </ul>
 </li>
+<li><strong>Click &amp; Collect</strong>
+<ul>
+<li>Excel upload</li>
+<li>1 terminal/warehouse</li>
+<li>1 sender (your own company)</li>
+<li>Communication with SMS when <em>Click &amp; Collect</em> starts for the day and it not picked up.</li>
+<li>Use Hub App for delivering</li>
+</ul>
+</li>
 </ul>
 <h2 id="small-company-with-deliveries-no-pickups">Small company with deliveries (no pickups)</h2>
 <p>This scenario describes a typical setup for a smaller company and you only have to setup a few things before you can start delivering with pinDeliver. Recommended order for your setup is according to the table below.</p>
@@ -133,7 +142,7 @@
 <tr>
 <td style="text-align: center;">6</td>
 <td><a href="settings_sms.html">SMS Communication</a></td>
-<td>Open <strong>Settings/SMS</strong> and activate the following SMS triggers. Example/recommended messages including place holders can be seen in the blue boxes below each trigger.<ur><li>Send SMS when locking a route</li><li>Send SMS when the driver starts the route</li><li>Send SMS when a driver reports that a delivery has been made, but the customer was not home</li><li>Send SMS to customer when a driver reports that a delivery has not been made</li></ur></td>
+<td>Open <strong>Settings/SMS</strong> and activate the following SMS triggers for the deliveries (left side of page). Example/recommended messages including place holders can be seen in the blue boxes below each trigger.<ur><li>Send SMS when locking a route</li><li>Send SMS when the driver starts the route</li><li>Send SMS when a driver reports that a delivery has been made, but the customer was not home</li><li>Send SMS to customer when a driver reports that a delivery has not been made</li></ur></td>
 </tr>
 </tbody>
 </table>
@@ -177,12 +186,50 @@
 <tr>
 <td style="text-align: center;">6</td>
 <td><a href="settings_sms.html">SMS Communication</a></td>
-<td>Open <strong>Settings/SMS</strong> and activate the following SMS triggers. Example/recommended messages including place holders can be seen in the blue boxes below each trigger.<ur><li>Send SMS when locking a route</li><li>Send SMS when the driver starts the route</li><li>Send SMS when a driver reports that a delivery has been made, but the customer was not home</li><li>Send SMS to customer when a driver reports that a delivery has not been made</li></ur></td>
+<td>Open <strong>Settings/SMS</strong> and activate the following SMS triggers for the deliveries (left side of page). Example/recommended messages including place holders can be seen in the blue boxes below each trigger.<ur><li>Send SMS when locking a route</li><li>Send SMS when the driver starts the route</li><li>Send SMS when a driver reports that a delivery has been made, but the customer was not home</li><li>Send SMS to customer when a driver reports that a delivery has not been made</li></ur></td>
 </tr>
 </tbody>
 </table>
 <p>Now you are ready to start uploading orders through Excel and start planning and executing you deliveries.</p>
-<h2 id="sender-branding">Sender branding</h2>
+<h2 id="click--collect">Click &amp; Collect</h2>
+<p>This scenario describes a typical setup for a smaller company that will start with Click &amp; Collect</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th>Area/Section</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td><a href="delivery_groups.html">Delivery Group</a></td>
+<td>Create or update a delivery group and name it according to your terminal location. Activate the <strong>Use depots</strong> and add your warehouse address to show your customers where they should go for the collection.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td><a href="users.html">Users</a></td>
+<td>Add users that will work in the pinDeliver Office interface or in the Hub App. If you will deliver with the Hub App the users must have <em>Is Hub personal</em> as permission.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td><a href="senders.html">Senders</a></td>
+<td>Your account probably already has a default sender but you want to add your company logo and your colors for branding the customer page correct.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td><a href="settings_sms.html">SMS Communication</a></td>
+<td>Open <strong>Settings/SMS</strong> and activate the following SMS triggers for the Click &amp; Collect (right side of page). Example/recommended messages including place holders can be seen in the blue boxes below each trigger.<ur><li>Send SMS to customers when the driver starts collect</li>Send SMS to customers when delivery is not collected</ur></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>Hub App</td>
+<td>Install pinDeliver HubApp from Google Play. Login to the app and go to settings and choose <em>Delivery group/terminal</em>.</td>
+</tr>
+</tbody>
+</table>
+<p>Now you are ready to start uploading orders through Excel and start planning and executing you deliveries.</p>
 </article>
           </div>
           
