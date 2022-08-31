@@ -46,5 +46,3 @@ This scenario describes a typical setup for a midsize company with two different
 |6|[SMS Communication](settings_sms.md)|Open **Settings/SMS** and activate the following SMS triggers. Example/recommended messages including place holders can be seen in the blue boxes below each trigger.<ur><li>Send SMS when locking a route</li><li>Send SMS when the driver starts the route</li><li>Send SMS when a driver reports that a delivery has been made, but the customer was not home</li><li>Send SMS to customer when a driver reports that a delivery has not been made</li></ur>|
 
 Now you are ready to start uploading orders through Excel and start planning and executing you deliveries.
-
-## Sender branding
