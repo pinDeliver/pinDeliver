@@ -1,0 +1,69 @@
+- name: Introduction
+  items:
+  - name: "Get started"
+    href: index.md
+  - name: Interfaces
+    href: interfaces.md
+  - name: Definitions
+    href: definitions.md
+  - name: Terminology
+    href: terminology.md
+  - name: "Example scenarios"
+    href: example_scenarios.md
+- name: Process
+  items:
+  - name: "Main menu"
+    href: main_menu.md
+  - name: Order Excel upload
+    href: order_excel_upload.md
+  - name: "Route optimization/Transport planning"
+    href: route_optimization_transport_planning.md
+  - name: "Go-app for drivers"
+    href: go_app_for_drivers.md
+  - name: "Click & Collect"
+    href: click_and_collect.md
+  - name: "Customer communication"
+    href: customer_communication.md
+  - name: "Send custom messages"
+    href: send_custom_messages.md
+- name: Admin
+  items:
+  - name: Drivers
+    href: drivers.md
+  - name: Vehicles
+    href: vehicles.md
+  - name: "Delivery groups"
+    href: delivery_groups.md
+  - name: Settings
+    href: settings.md
+    items:
+    - name: "Basic settings"
+      href: settings_basic.md
+    - name: Language settings
+      href: settings_language.md
+    - name: "Optimization settings"
+      href: settings_optimization.md
+    - name: "Click & Collect"
+      href: settings_click_and_collect.md
+    - name: SMS
+      href: settings_sms.md
+    - name: Email
+      href: settings_email.md
+    - name: "Message schedule"
+      href: settings_message_schedule.md
+    - name: "The Go app"
+      href: settings_go_app.md
+    - name: "The Hub app"
+      href: settings_hub_app.md
+    - name: Security
+      href: settings_security.md
+    - name: "Company features"
+      href: settings_company_features.md
+    - name: "Customer page"
+      href: settings_customer_page.md
+  - name: Users
+    href: users.md
+  - name: "Traffic restrictions"
+    href: traffic_restrictions.md
+  - name: Senders
+    href: senders.md

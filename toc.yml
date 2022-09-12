@@ -1,2 +1,8 @@
 - name: Education
   href: documentation/
+- name: Introduction
+  href: documentation/introduction.md
+- name: Process
+  href: documentation/process.md
+- name: Admin
+  href: documentation/admin.md

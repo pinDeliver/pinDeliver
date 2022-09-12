@@ -1,4 +1,5 @@
 - name: Introduction
+  href: introduction.md
   items:
   - name: "Get started"
     href: get_started.md
@@ -10,10 +11,11 @@
     href: terminology.md
   - name: "Example scenarios"
     href: example_scenarios.md
-- name: Process
-  items:
   - name: "Main menu"
     href: main_menu.md
+- name: Process
+  href: process.md
+  items:
   - name: Order Excel upload
     href: order_excel_upload.md
   - name: "Route optimization/Transport planning"
@@ -27,6 +29,7 @@
   - name: "Send custom messages"
     href: send_custom_messages.md
 - name: Admin
+  href: admin.md
   items:
   - name: Drivers
     href: drivers.md
