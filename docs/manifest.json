@@ -4,6 +4,17 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Resource",
+      "source_relative_path": "CNAME",
+      "output": {
+        "resource": {
+          "relative_path": "CNAME"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "README.md",
       "output": {
@@ -1586,7 +1597,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "0ByJQ07Hl455K+nudMGBt1eMu206bi37nDyNCgil8Js="
+          "hash": "Hfip0qNgJs4EimjwMQijgs1KHwP1FjMw4e0btQ7UaUI="
         }
       },
       "is_incremental": true,
