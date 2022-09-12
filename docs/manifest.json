@@ -17,6 +17,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "documentation/admin.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/admin.html",
+          "hash": "T0agPLcriIr/MKZf+ZwZrIKHBWDnzRcQQ7JrGhbvlBU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "documentation/click_and_collect.md",
       "output": {
         ".html": {
@@ -81,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "documentation/example_scenarios.html",
-          "hash": "QUGjRYmoP2MT/dQKqLb1hU3N/iK/f7u638M5TdqecY0="
+          "hash": "GQNUaCIUY30jQOV4AFwcl7j27eNmriMeyOAMXGLG7Zs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "documentation/get_started.html",
-          "hash": "Ii19GV/SzSqrl7oZ5bxIPcsXQsOXC/AFGsBszjDQFkU="
+          "hash": "na3JmOAX+BsLNVJxNCX5jJgeiWAkdzNd5KMfaRwB0SM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -125,6 +137,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "documentation/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/introduction.html",
+          "hash": "88MSZCE1dTVD9fpLFSdkdcEk1QWdWmF05sg7Ko0KxL8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "documentation/main_menu.md",
       "output": {
         ".html": {
@@ -142,6 +166,18 @@
         ".html": {
           "relative_path": "documentation/order_excel_upload.html",
           "hash": "oDW9JNc16Zf7Xm4rzbU84viEXx8BZvw4KhXGOzp7YzU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/process.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/process.html",
+          "hash": "FlJ/3xlYcF6vc9Df5VJYucMv9ODmO3Gc4Cm/LuxDMR4="
         }
       },
       "is_incremental": true,
@@ -357,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/toc.html",
-          "hash": "o/QIG356djjkUQB1HeaKSbczgemVswZvAp+MOqyIzT4="
+          "hash": "SyQ10QrBNQmCXtlgcNdOjYYlM67599reh+Hf0fDgSYQ="
         }
       },
       "is_incremental": false,
@@ -397,6 +433,17 @@
         }
       },
       "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1539,10 +1586,21 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "gm2ywYY8585V9sl+zLdMbmtjyHeEgEj0xQLJ5jlIpMo="
+          "hash": "IfXRvYytPgLQUb0/+bKfgsc3RxeCsgyBahcWbI75qz0="
         }
       },
       "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1551,7 +1609,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "QzqDV/53hrj5njRAWw9uNX+x0iEJ2ykempLmR7Tjq7E="
+          "hash": "mKAzTH8oE73wJDJE/Z8GYs3v+UOdqc6nvqKhK3kLmQY="
         }
       },
       "is_incremental": false,
@@ -1570,8 +1628,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 34,
-          "skipped_file_count": 33
+          "total_file_count": 37,
+          "skipped_file_count": 37
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
