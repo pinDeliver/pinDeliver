@@ -4,4 +4,4 @@ pinDeliver is a cloud-based delivery platform that streamlines and digitizes the
 
 This site is built up with information about different examples, processes, setups/settings and follow-up.
 
-Click here to [Get started](documentation/get_started.md)
+Click here to [Get started](documentation/get_started.md)!
