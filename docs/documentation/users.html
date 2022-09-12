@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Users </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Users ">
+    <meta name="generator" content="docfx 2.59.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="users">Users</h1>
+
+<p>All people that will work with planning and follow-up needs a login to pinDeliver. That means that they have to be registered as users. Drivers will use the Go-app for their work tasks and they start the app through a clickable link instead of logging in with User ID and password.</p>
+<p>A user can have different permissions, both in which functions they can use in the platform and which delivery groups they have access to.</p>
+<p>A newly created pinDeliver account will always have one user created and then you can add unlimited users on your own.</p>
+<p>The login method can be of three different types:</p>
+<ul>
+<li>Username and password</li>
+<li>Microsoft Office 365 login</li>
+<li>API login (it is recommended to not use an api user to login to the interface)</li>
+</ul>
+<p>To create a new user you select Admin/Users from the main menu. A list of all created users is shown and you just click <strong>Add new user</strong> in the bottom of the list. The settings for the user are grouped in different tabs, see below. Fill in all relevant fields in the user card and click <strong>Create user</strong> to save it. See image and field explanations below for each tab.</p>
+<p><img src="/images/users_list.png" alt="Users"></p>
+<h3 id="basic-information">Basic information</h3>
+<p>The first settings tab is the basic settings with name and similar values.</p>
+<p><img src="/images/user_basic_information.png" alt="User"></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Username</td>
+<td>The login username for the user. If Office 365 should be used as login method this should be the Office 365 account, normally the users email address.</td>
+</tr>
+<tr>
+<td>First name</td>
+<td>The first name of the user.</td>
+</tr>
+<tr>
+<td>Last name</td>
+<td>The last name of the user.</td>
+</tr>
+<tr>
+<td>Language</td>
+<td>Select the language the user wants to use for the pinDeliver interface.</td>
+</tr>
+<tr>
+<td>Phone number</td>
+<td>The phone number for the user. For information only.</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>The email for the user.</td>
+</tr>
+<tr>
+<td>Use for api</td>
+<td>If the user should be used for an integration. In that case you must generate an api key by pushing <strong>New key</strong>.</td>
+</tr>
+<tr>
+<td>Password</td>
+<td>Type in a password for the user. The password needs to be changed when the user login for the first time. For an Office 365 or api user the password will not be used.</td>
+</tr>
+<tr>
+<td>Confirm password</td>
+<td>type in the same password again.</td>
+</tr>
+<tr>
+<td>Api key</td>
+<td>Shows the generated api key for an api user.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="permissions">Permissions</h2>
+<p>Once the user is created you need to assign permissions for the user. Permissions is equal to different functionality in the platform. It is possible to select individual functionalities for the user. Below you can see recommended &quot;user permission groups&quot; for different user types. But this is all up to your company.</p>
+<p><img src="/images/user_permissions.png" alt="User permissons"></p>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Optimize route</td>
+<td>A user with this permission can do route optimization and modify the routes.</td>
+</tr>
+<tr>
+<td>Assign route</td>
+<td>Can assign drivers to a route.</td>
+</tr>
+<tr>
+<td>Manage vehicles</td>
+<td>Can add, change and delete vehicles.</td>
+</tr>
+<tr>
+<td>Manage drivers</td>
+<td>Can add, change and delete drivers.</td>
+</tr>
+<tr>
+<td>Manage delivery groups</td>
+<td>Can add, change and delete delivery groups.</td>
+</tr>
+<tr>
+<td>Manage users</td>
+<td>Can add, change and delete users.</td>
+</tr>
+<tr>
+<td>View reports</td>
+<td>Can view and export follow-up reports.</td>
+</tr>
+<tr>
+<td>Manage senders</td>
+<td>Can add, change and delete senders.</td>
+</tr>
+<tr>
+<td>Manage orders</td>
+<td>Can add, change and delete planning orders and customer orders.</td>
+</tr>
+<tr>
+<td>Send customer messages manually</td>
+<td>Can trigger messages to the customers manually from Office.</td>
+</tr>
+<tr>
+<td>API documentation</td>
+<td>Can access the API menu.</td>
+</tr>
+<tr>
+<td>Administer company</td>
+<td>Can administrate company settings that are common for the whole license (all delivery groups, senders etc).</td>
+</tr>
+<tr>
+<td>Can view driver contact details</td>
+<td>Can view driver details like phone number and email.</td>
+</tr>
+<tr>
+<td>Manage surveys</td>
+<td>Can add, change and delete surveys. Can activate and deactivate surveys.</td>
+</tr>
+<tr>
+<td>Manage traffic restrictions</td>
+<td>Can add, change and delete traffic restrictions for the whole license.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="permission-groupsuser-roles">Permission groups/User roles</h3>
+<p>You don´t find any predefined permission groups (or user roles) in pinDeliver. This is of course because each company can have different needs. Below you can see a suggestion for user roles. A specific user can of course have two or more roles and then you can just combine permissions for that user.</p>
+<ul>
+<li>Transport planning</li>
+<li>Customer service</li>
+<li>Administrator</li>
+<li>Superuser</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th style="text-align: center;">Transport planning</th>
+<th style="text-align: center;">Customer service</th>
+<th style="text-align: center;">Administrator</th>
+<th style="text-align: center;">Superuser</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Optimize route</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Assign route</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Manage vehicles</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>Manage drivers</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>Manage delivery groups</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>Manage users</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>View reports</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>Manage senders</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>Manage orders</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Send customer messages manually</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>API documentation</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>Administer company</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>Can view driver contact details</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Manage surveys</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Manage traffic restrictions</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<h3 id="company">Company</h3>
+<p>On this tab you select which companies the user should have access to. For most users and companies you will only be able to select your own company.</p>
+<p><img src="/images/user_company.png" alt="User company"></p>
+<h3 id="delivery-groups">Delivery groups</h3>
+<p>On this tab you select which delivery groups a user should have access to. By default a user will have access to all delivery groups and then nothing needs to be changed. But to limit the access you select the <em>Access only to the following delivery groups</em> and then you just drag´n´drop the delivery group from the red &quot;No access&quot;-square to the green &quot;Access&quot;-square to the left. You can also use the arrows between the squares to move all groups at once. (This is useful if a user should have access to more or less all delivery groups. Give access to all and then remove the few that should not be accessed, or vice versa.)</p>
+<p><img src="/images/user_delivery_groups.png" alt="User delivery groups"></p>
+<h3 id="senders">Senders</h3>
+<p>On this tab you select which senders a user should have access to. By default a user will have access to all senders and then nothing needs to be changed. But to limit the access you select the <em>Access only to the following senders</em> and then you just drag´n´drop the senders from the red &quot;No access&quot;-square to the green &quot;Access&quot;-square to the left. You can also use the arrows between the squares to move all senders at once. (This is useful if a user should have access to more or less all senders. Give access to all and then remove the few that should not be accessed, or vice versa.)</p>
+<p><img src="/images/user_senders.png" alt="User senders"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/pinDeliver/pinDeliver/blob/master/documentation/users.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

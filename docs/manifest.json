@@ -1,0 +1,1678 @@
+{
+  "homepages": [],
+  "source_base_path": "/Users/marcuswigren/Documents/GitHub/Repositories/pinDeliver",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "source_relative_path": "CNAME",
+      "output": {
+        "resource": {
+          "relative_path": "CNAME"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "NSr65AuTd33QQf0IkGAj+XL1o6kb++orj/JbWQKgG64="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/admin.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/admin.html",
+          "hash": "T0agPLcriIr/MKZf+ZwZrIKHBWDnzRcQQ7JrGhbvlBU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/click_and_collect.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/click_and_collect.html",
+          "hash": "5KV3KVzgnXQ3rP+AtN/+OZs0UGWSqcNQAsWORF2Icdk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/customer_communication.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/customer_communication.html",
+          "hash": "acCt52QqKC2PgIE6vYor1C6sMXoWuX5IFST2IokU350="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/definitions.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/definitions.html",
+          "hash": "218+Z0a38kqQm49l8bl9+PPsmVz3Vl/8r8ac+h3f2o8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/delivery_groups.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/delivery_groups.html",
+          "hash": "t9DaG7l/qdxdLfKXgL3aFZnzboulIFWatVkeAS46WCY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/drivers.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/drivers.html",
+          "hash": "hxjQNyQPWg6yK1SQzzOrMrsysJBDwCFq72xsTeSjfzI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/example_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/example_scenarios.html",
+          "hash": "GQNUaCIUY30jQOV4AFwcl7j27eNmriMeyOAMXGLG7Zs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/get_started.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/get_started.html",
+          "hash": "na3JmOAX+BsLNVJxNCX5jJgeiWAkdzNd5KMfaRwB0SM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/go_app_for_drivers.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/go_app_for_drivers.html",
+          "hash": "YtOu+L322SHRhFRkZwHach4f9Jh/K/gvYmBK1J1G0oo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/interfaces.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/interfaces.html",
+          "hash": "faPs1nwswQBa+0MpGhqpdk9drWim7i0g3T/QiNodjmw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/introduction.html",
+          "hash": "h2srgnJgdEu0+8zt2yFYybgEvC7MG9wlxTL8xIC9H0U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/main_menu.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/main_menu.html",
+          "hash": "mwYo6TIqY6pzqw0UjZfuoqXAUMg/Nek8ybdzrTQFehs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/order_excel_upload.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/order_excel_upload.html",
+          "hash": "JRUq91b0dIkt5bki+FYpa8REz7/cCulUgwyMRt18X3Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/process.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/process.html",
+          "hash": "FlJ/3xlYcF6vc9Df5VJYucMv9ODmO3Gc4Cm/LuxDMR4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/route_optimization_transport_planning.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/route_optimization_transport_planning.html",
+          "hash": "jLtOk7eal2nJC2qquAQuF8qyoQxZ403fJUBflTWluNk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/send_custom_messages.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/send_custom_messages.html",
+          "hash": "RHWQ6iI0LNfbupIRfVPvYls3vQVxtn2anuXmsaoKvnM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/senders.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/senders.html",
+          "hash": "Wj8NofcTGF7DzLRLRcgXC0mE0Wz+Ccd/iFK+MtFNqZU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings.html",
+          "hash": "zmA21kHgEXPR38LmALf+pDLMieyseDhFCCykgKHk/mg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_basic.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_basic.html",
+          "hash": "BgcPnU25hBfzyq0Um5S2QDEGul9uHYKjNYqYZmK4tQE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_click_and_collect.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_click_and_collect.html",
+          "hash": "ykiYicRxIGFEsKt22+x2BKsLcqSFX++IwzrnI+WpnAg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_company_features.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_company_features.html",
+          "hash": "kMxTEX8lWvKnAxN1l78jEP6ZsHvASzC065pSDQAxmvY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_customer_page.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_customer_page.html",
+          "hash": "OGudEKnXbtahshsc0rkJJoMmrnMzCz3xb9QxrUJnrZo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_email.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_email.html",
+          "hash": "jChxNx0+m51+u1y8K4hJo2heDBnpyC0UXvncndQiGCg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_go_app.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_go_app.html",
+          "hash": "USg5moewJWRrSL5Kq8EZcajjgc6locOzQAXPtX1YoDk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_hub_app.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_hub_app.html",
+          "hash": "vF5WRZMc2l1qCp6eAVmXknnhSEsij+VhwPsa/g2JhP0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_language.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_language.html",
+          "hash": "BWZo8afirA4wXJf7TxtKf4sWBii7B/Zsz2loOw6SLCI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_message_schedule.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_message_schedule.html",
+          "hash": "aadzbgQee6Vq3Gh1uEHOqUuUG2DfmM8Dzc3Q4oyB/xg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_optimization.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_optimization.html",
+          "hash": "SbcsW9Ccj+OcUrhjaWqHrqNjF2Ez18g3Vy0RPHspWd8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_security.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_security.html",
+          "hash": "XwbeLe/JIId017oeUbJw8mr3bfobQnwvHmnGmw4AIHo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/settings_sms.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/settings_sms.html",
+          "hash": "H+bR0vZV+PaGblW6V/1mrfrZxWeSDxXTuNTOkWq+XrA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/terminology.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/terminology.html",
+          "hash": "AFAeToLraoqo9VvzknAyAXaygiF+SwlpFghF5E0gqoA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/toc.html",
+          "hash": "SyQ10QrBNQmCXtlgcNdOjYYlM67599reh+Hf0fDgSYQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/traffic_restrictions.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/traffic_restrictions.html",
+          "hash": "cFe09QTI24IZBXMg92nqIJ4NJLgUz8TAAV70djBpAuk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/users.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/users.html",
+          "hash": "I0ymUsDd+BLuR/gwV8f3RlROHZoWVOvzfFDCD7oBj/g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/vehicles.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/vehicles.html",
+          "hash": "F88vRWTgoO1OXSbS1FeTi8GIPpsBULv2+59SYhkNquY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "help_temporary.md",
+      "output": {
+        ".html": {
+          "relative_path": "help_temporary.html",
+          "hash": "KkzjqLpF92LFiNQ+t0dt+ODupoYKAKexbSxMZ2CQWgc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_customer_info_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_customer_info_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_customer_info_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_customer_info_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_customer_info_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_customer_info_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_hubapp_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_hubapp_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_hubapp_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_hubapp_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_sms_customer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_sms_customer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_sms_customer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_sms_customer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cc_sms_customer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cc_sms_customer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/click_collect_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/click_collect_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/click_collect_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/click_collect_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/click_collect_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/click_collect_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/click_collect_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/click_collect_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/click_collect_create_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/click_collect_create_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_loaded.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_loaded.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_locked.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_locked.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_notcompleted.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_notcompleted.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_nothome.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_nothome.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_started.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_started.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customer_communication_update.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customer_communication_update.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/delivery_group.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/delivery_group.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/delivery_group_list.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/delivery_group_list.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/driver.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/driver.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/driver_list.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/driver_list.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/excel_order1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/excel_order1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/excel_order2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/excel_order2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/excel_order3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/excel_order3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/excel_order4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/excel_order4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/excel_order5.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/excel_order5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/excel_order_example1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/excel_order_example1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/excel_order_example2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/excel_order_example2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/excel_order_movieclip_screenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/excel_order_movieclip_screenshot.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/go_app_native_movieclip_screenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/go_app_native_movieclip_screenshot.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/go_app_web_movieclip_screenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/go_app_web_movieclip_screenshot.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icons/delivery.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icons/delivery.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icons/delivery_group.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icons/delivery_group.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icons/depot.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icons/depot.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icons/driver.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icons/driver.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icons/package.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icons/package.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icons/planning_order.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icons/planning_order.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icons/route.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icons/route.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icons/sender.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icons/sender.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icons/vehicle.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icons/vehicle.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/interface_office.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/interface_office.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/interface_service_center.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/interface_service_center.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_admin.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_admin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_companyname_username.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_companyname_username.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_followup.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_followup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_history.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_history.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_messages.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_messages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_messages_create_template.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_messages_create_template.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_messages_select_customers.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_messages_select_customers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_messages_show_selection.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_messages_show_selection.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_overview.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_overview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_search_customer_delivery0.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_search_customer_delivery0.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_search_customer_delivery1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_search_customer_delivery1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_search_customer_delivery2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_search_customer_delivery2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_search_package1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_search_package1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/main_menu_search_package2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/main_menu_search_package2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pinDeliver_logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pinDeliver_logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pindeliver_customer_information_page1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pindeliver_customer_information_page1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pindeliver_customer_information_page2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pindeliver_customer_information_page2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pindeliver_go_native.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pindeliver_go_native.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pindeliver_go_webapp.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pindeliver_go_webapp.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pindeliver_hub_app.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pindeliver_hub_app.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/route_optimization_transport_planning_movieclip_screenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/route_optimization_transport_planning_movieclip_screenshot.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sender_email.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sender_email.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sender_list.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sender_list.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sender_sender.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sender_sender.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sender_settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sender_settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sender_sms.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sender_sms.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sender_theme.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sender_theme.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sender_theme_customer_page_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sender_theme_customer_page_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sender_theme_customer_page_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sender_theme_customer_page_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_basic_settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_basic_settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_click_collect.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_click_collect.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_click_collect_customer_page_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_click_collect_customer_page_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_click_collect_customer_page_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_click_collect_customer_page_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_company_features.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_company_features.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_customer_page.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_customer_page.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_email.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_email.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_language_settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_language_settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_message_schedule.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_message_schedule.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_optimization_settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_optimization_settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_security.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_security.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_sms.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_sms.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_the_go_app.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_the_go_app.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/settings_the_hub_app.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/settings_the_hub_app.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/traffic_restrictions_create1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/traffic_restrictions_create1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/traffic_restrictions_create2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/traffic_restrictions_create2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/traffic_restrictions_create3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/traffic_restrictions_create3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/traffic_restrictions_list.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/traffic_restrictions_list.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/traffic_restrictions_map_drawing_tool.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/traffic_restrictions_map_drawing_tool.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/user_basic_information-api.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/user_basic_information-api.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/user_basic_information.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/user_basic_information.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/user_company.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/user_company.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/user_delivery_groups.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/user_delivery_groups.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/user_permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/user_permissions.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/user_senders.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/user_senders.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/users_list.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/users_list.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/vehicle.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/vehicle.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/vehicle_list.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/vehicle_list.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Hfip0qNgJs4EimjwMQijgs1KHwP1FjMw4e0btQ7UaUI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "mKAzTH8oE73wJDJE/Z8GYs3v+UOdqc6nvqKhK3kLmQY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 37,
+          "skipped_file_count": 37
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
