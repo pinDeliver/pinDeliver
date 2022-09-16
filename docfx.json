@@ -31,6 +31,11 @@
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
-    "disableGitFeatures": false
+    "disableGitFeatures": false,
+    "globalMetadata":
+    {
+      "_disableContribution": true,
+      "_appFooter": "<span>Copyright &copy; <script>document.write(new Date().getFullYear())</script> pinDeliver AB</span>"
+    },
   }
 }
