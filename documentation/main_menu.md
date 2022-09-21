@@ -68,7 +68,7 @@ Normally you do not have to remove or archive any orders after completion. But i
 ![History](/images/main_menu_history.png)
 
 ### Followup
-Under *Followup* you find several reports and pages for showing statistics, finished orders etc. 
+Under *Followup* you find several reports and pages for showing statistics, finished orders etc.
 
 ![Followup](/images/main_menu_followup.png)
 
@@ -81,6 +81,9 @@ In the section *Admin* you find all available settings. These settings should be
 The API section describes the different standard methods used for REST communication to pinDeliver. These are always available and you must first add an API user, read more about this in [Users](users.md).
 
 Another way is to use pinDeliver Service Center as a middleware. Service Center can be used for data-population, business logic etc. This means that it will be easier for you as an integrator if the Service Center is used. Please contact pinDeliver before starting developing an integration.
+
+### Guide
+The Guide section links to this online help. It is the same online help that is also linked from [www.pindeliver.com](https://www.pindeliver.com)
 
 ### Company name/User name
 By clicking on your username in the upper right corner you get a small menu with a few options:
