@@ -4,7 +4,7 @@ A simple way to import orders to pinDeliver is through an Excel sheet. Then you 
 
 Click the image below to see a clip about Excel upload:
 <p float="right">
-<a href="https://youtu.be/3P3RuAGnjjM" target="_blank">
+<a href="https://youtu.be/-K3hSL8nUmM" target="_blank">
 <img  alt="Excel Upload" src="/images/excel_order_movieclip_screenshot.png" width="600">
 </a>
 </p>

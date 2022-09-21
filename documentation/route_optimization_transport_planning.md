@@ -6,7 +6,7 @@ Normally the routing is made automatic and you just confirm the resulting routes
 
 Click the image below to see a clip about Route planning:
 <p float="right">
-<a href="https://youtu.be/3IPTkH0Bjrw" target="_blank">
+<a href="https://youtu.be/5eoqk3x4Ee4" target="_blank">
 <img  alt="Route Optimization/Transport planning" src="/images/route_optimization_transport_planning_movieclip_screenshot.png" width="600">
 </a>
 </p>
