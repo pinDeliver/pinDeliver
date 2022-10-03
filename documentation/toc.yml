@@ -70,8 +70,8 @@
     href: traffic_restrictions.md
   - name: Senders
     href: senders.md
-- name: Movie clip archive
-  href: movie_clip_archive.md
+- name: Movie clips
+  href: movie_clips.md
   items:
   - name: Order upload with Excel
     href: movie_clip_excel_upload.md
