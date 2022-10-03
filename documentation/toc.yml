@@ -70,3 +70,14 @@
     href: traffic_restrictions.md
   - name: Senders
     href: senders.md
+- name: Movie clip archive
+  href: movie_clip_archive.md
+  items:
+  - name: Order upload with Excel
+    href: movie_clip_excel_upload.md
+  - name: Route optimization
+    href: movie_clip_route_optimization.md
+  - name: Go web app
+    href: movie_clip_go_web_app.md
+  - name: Go native app
+    href: movie_clip_go_native_app.md
