@@ -23,4 +23,4 @@ Fill in all relevant fields in the delivery group card and click **Create delive
 |Fixed stop time in depot|The stop time in a depot, used both for initial loading and reloading.|
 |Apply reloading at optimization|Defines if it should be possible and/or mandatory for the user to use reloading when route optimization is done. Available options are:<ur><li>Never</li><li>Always</li><li>Selectable at optimization</li></ur>|
 |Unique click & collect text for customer page|Will be displayed on the customer page. The unique text will not be displayed for deliveries. Only collection orders will see the text on the customer page.|
-|Unique text for customer page|Will be displayed on the customer page.|.
+|Unique text for customer page|Will be displayed on the customer page.|
