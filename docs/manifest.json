@@ -208,6 +208,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "documentation/movie_clip_hubapp_scanning.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/movie_clip_hubapp_scanning.html",
+          "hash": "KsslM5Y+vJfebz3+U64MCs3LO5KoslolujcWsH/AWKE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "documentation/movie_clip_route_optimization.md",
       "output": {
         ".html": {
