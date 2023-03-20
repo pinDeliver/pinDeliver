@@ -81,3 +81,5 @@
     href: movie_clip_go_web_app.md
   - name: Go native app
     href: movie_clip_go_native_app.md
+  - name: The HubApp
+    href: movie_clip_hubapp_scanning.md
