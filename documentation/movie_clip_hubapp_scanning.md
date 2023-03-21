@@ -10,6 +10,6 @@ Moreover, the HubApp allows you to perform quality checks and generate package s
 
 <p float="right">
 <a href="https://youtu.be/rDplL0zwtmM" target="_blank">
-<img alt="HubApp Scanning" src="/images/hubapp_scanning.png" width="600">
+<img alt="HubApp Scanning" src="/images/hubapp_scanning_play.png" width="600">
 </a>
 </p>
