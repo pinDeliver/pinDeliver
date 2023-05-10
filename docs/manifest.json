@@ -220,6 +220,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "documentation/movie_clip_hubapp_scanning.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/movie_clip_hubapp_scanning.html",
+          "hash": "ci5soBTt9SFCPUPk2yKrstbp5+rc4phfg9y7rvjYfjU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "documentation/movie_clip_route_optimization.md",
       "output": {
         ".html": {
@@ -921,17 +933,6 @@
       "output": {
         "resource": {
           "relative_path": "images/hubapp_scan_play.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/hubapp_scanning_play.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/hubapp_scanning_play.png"
         }
       },
       "is_incremental": false,
