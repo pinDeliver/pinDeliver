@@ -8,8 +8,17 @@ With the HubApp, you can easily scan goods during linehaul loading, arrival and 
 
 Moreover, the HubApp allows you to perform quality checks and generate package status reports, making it an excellent resource for effective and efficient goods management.
 
+### Sort packages, Arrival scan and Loading scan
 <p float="right">
 <a href="https://youtu.be/rDplL0zwtmM" target="_blank">
-<img alt="HubApp Scanning" src="/images/hubapp_scanning_play.png" width="600">
+<img alt="HubApp Scanning" src="/images/hubapp_scan_play.png" width="600">
+</a>
+</p>
+
+
+### Scan for info and Add package
+<p float="right">
+<a href="https://youtu.be/6EuSp1F4YpE" target="_blank">
+<img alt="HubApp Scanning" src="/images/hubapp_scan_for_info_play.png" width="600">
 </a>
 </p>

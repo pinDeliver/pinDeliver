@@ -120,10 +120,12 @@ Header 2
 <code>[Macdown Website](http://macdown.uranusjr.com &quot;Title&quot;)</code> (The title is optional)</p>
 <h4 id="reference-style">Reference style</h4>
 <p>Sometimes it looks too messy to include big long urls inline, or you want to keep all your urls together.</p>
-<p>Make <a href="http://macdown.uranusjr.com" title="Title">a link</a> <code>[a link][arbitrary_id]</code> then on it's own line anywhere else in the file:<br>
+<p>Make [a link][arbitrary_id] <code>[a link][arbitrary_id]</code> then on it's own line anywhere else in the file:<br>
 <code>[arbitrary_id]: http://macdown.uranusjr.com &quot;Title&quot;</code></p>
-<p>If the link text itself would make a good id, you can link <a href="http://macdown.uranusjr.com">like this</a> <code>[like this][]</code>, then on it's own line anywhere else in the file:<br>
+<p>If the link text itself would make a good id, you can link [like this][] <code>[like this][]</code>, then on it's own line anywhere else in the file:<br>
 <code>[like this]: http://macdown.uranusjr.com</code></p>
+<p>[arbitrary_id]: <a href="http://macdown.uranusjr.com">http://macdown.uranusjr.com</a> &quot;Title&quot;
+[like this]: <a href="http://macdown.uranusjr.com">http://macdown.uranusjr.com</a></p>
 <h3 id="images">Images</h3>
 <h4 id="inline-1">Inline</h4>
 <p><code>![Alt Image Text](path/or/url/to.jpg &quot;Optional Title&quot;)</code></p>
@@ -175,7 +177,7 @@ Looks kinda ugly though.</p>
 <p>Most markdown syntaxes work inside block quotes.</p>
 <ul>
 <li>Lists</li>
-<li><a href="http://macdown.uranusjr.com" title="Title">Links</a></li>
+<li>[Links][arbitrary_id]</li>
 <li>Etc.</li>
 </ul>
 </blockquote>
