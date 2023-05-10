@@ -906,10 +906,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/hubapp_scan_for_info_play.PNG",
+      "source_relative_path": "images/hubapp_scan_for_info_play.png",
       "output": {
         "resource": {
-          "relative_path": "images/hubapp_scan_for_info_play.PNG"
+          "relative_path": "images/hubapp_scan_for_info_play.png"
         }
       },
       "is_incremental": false,
@@ -917,10 +917,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/hubapp_scan_play.PNG",
+      "source_relative_path": "images/hubapp_scan_play.png",
       "output": {
         "resource": {
-          "relative_path": "images/hubapp_scan_play.PNG"
+          "relative_path": "images/hubapp_scan_play.png"
         }
       },
       "is_incremental": false,
