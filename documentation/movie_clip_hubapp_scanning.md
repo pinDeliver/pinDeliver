@@ -11,7 +11,7 @@ Moreover, the HubApp allows you to perform quality checks and generate package s
 ### Sort packages, Arrival scan and Loading scan
 <p float="right">
 <a href="https://youtu.be/rDplL0zwtmM" target="_blank">
-<img alt="HubApp Arrival scan" src="/images/hubapp_scan_play.png" width="600">
+<img alt="HubApp Arrival scan" src="/images/hubapp_scan.png" width="600">
 </a>
 </p>
 
@@ -19,6 +19,6 @@ Moreover, the HubApp allows you to perform quality checks and generate package s
 ### Scan for info and Add package
 <p float="right">
 <a href="https://youtu.be/6EuSp1F4YpE" target="_blank">
-<img alt="HubApp Scan for info" src="/images/hubapp_scan_for_info_play.png" width="600">
+<img alt="HubApp Scan for info" src="/images/hubapp_scan_for_play.png" width="600">
 </a>
 </p>
