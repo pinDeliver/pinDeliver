@@ -215,7 +215,7 @@
           "hash": "ci5soBTt9SFCPUPk2yKrstbp5+rc4phfg9y7rvjYfjU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1756,7 +1756,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 43,
-          "skipped_file_count": 42
+          "skipped_file_count": 43
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
