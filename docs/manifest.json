@@ -152,7 +152,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/introduction.html",
-          "hash": "9HqQG0aqt0ALWb1NFdpVuTh6HDXn+aDLMO8yz4sL0R4="
+          "hash": "ytmVIKWH7Y9DGYxPH4WCVRCkKpVw78c/IDAWH1RHwa4="
         }
       },
       "is_incremental": true,
@@ -212,7 +212,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/movie_clip_hubapp_scanning.html",
-          "hash": "ci5soBTt9SFCPUPk2yKrstbp5+rc4phfg9y7rvjYfjU="
+          "hash": "d8zFm1Y5kzn1IFWcPL7J7s27Oi4y6mu25MzJNcQNM8c="
         }
       },
       "is_incremental": true,
@@ -906,10 +906,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/hubapp_scan_for_info_play.png",
+      "source_relative_path": "images/hubapp_scan.png",
       "output": {
         "resource": {
-          "relative_path": "images/hubapp_scan_for_info_play.png"
+          "relative_path": "images/hubapp_scan.png"
         }
       },
       "is_incremental": false,
@@ -917,10 +917,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/hubapp_scan_play.png",
+      "source_relative_path": "images/hubapp_scan_for_play.png",
       "output": {
         "resource": {
-          "relative_path": "images/hubapp_scan_play.png"
+          "relative_path": "images/hubapp_scan_for_play.png"
         }
       },
       "is_incremental": false,

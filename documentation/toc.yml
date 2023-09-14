@@ -3,10 +3,10 @@
   items:
   - name: "Get started"
     href: get_started.md
-  - name: Interfaces
-    href: interfaces.md
   - name: Definitions
     href: definitions.md
+  - name: Interfaces
+    href: interfaces.md
   - name: Terminology
     href: terminology.md
   - name: "Example scenarios"
