@@ -1,12 +1,12 @@
 # Get started
 
-It is very easy to get started with pinDeliver. The easiest scenario is to upload your orders with as Excel files. But before you can start you need to understand the process in the platform and do some basic setup. Start by reading the definitions and and you also have the terminology list as help to understand. You can read the [*Example scenarios*](example_scenarios.md) to get help about what you need to setup before starting your deliveries.
+Getting started with pinDeliver is simple. In its simplest form, you can upload your orders from an Excel file. However, before you start, our recommendation is to read through this manual to gain knowledge about all the functionalities available in pinDeliver. You are also required to adjust some settings to make them customized for you and your business. This will help you maximize all benefits of pinDeliver and enrich your experience.
 
-Basic understanding:
+The first step is understanding the terminology and definitions used in the platform. You can find them in the list of [definitions](definitions.md).
 
-* [Definitions](definitions.md)
+To guide you through which settings you are required to adjust before starting to plan your deliveries, please read the [example scenarios](example_scenarios.md).  
 
-Basic setup from the Admin-menu!
+The basic setup from the Admin menu:
 
 * [Delivery Groups](delivery_groups.md)
 * [Vehicles](vehicles.md)
