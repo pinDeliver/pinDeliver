@@ -1,7 +1,7 @@
 # Welcome to pinDeliver
 
-pinDeliver is a cloud-based delivery platform that streamlines and digitizes the entire delivery process, from transport booking to follow-up, and all the important events that happens in between. Our platform is complete and at the same time flexible to meet our customers differences. Everyone can benefit from using pinDeliver.
+pinDeliver is a cloud-based delivery platform that revolutionizes the transport management process. From transport planning to follow-ups, pinDeliver streamlines and digitizes every step, making it efficient and convenient for businesses to optimize your delivery operations and achieve seamless logistics management.  
 
-This site is built up with information about different examples, processes, setups/settings and follow-up.
+Use this site as a guide to get started with pinDeliver or to learn more about the functionalities of the platform. Different examples of processes, settings and follow-up functions will be showcased.  
 
-#### [Click to GET STARTED](documentation/get_started.md)
+#### [Get started](documentation/get_started.md)
