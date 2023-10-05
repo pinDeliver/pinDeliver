@@ -1,5 +1,5 @@
 # pinDeliver interfaces
-The pinDeliver platform has several interfaces and these can be viewed as various methods or approaches for engaging with the platform. The usage of the different interfaces is optional, and you can simply choose the interfaces that suits you and your business best.  
+The pinDeliver platform has several interfaces and these can be viewed as various methods or approaches for engaging with the platform. The usage of the different interfaces is optional, and you can simply choose the interfaces that suit you and your business best.  
 
 On this page, you will find descriptions of each interface.
 

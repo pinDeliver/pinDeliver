@@ -1,10 +1,10 @@
-# Movie clip - Go Driver web-app
+# Video clip - Go Web App
 
-The pinDeliver Go app is a tool for the driver. This is an app with a lot of functionality and it is also possible to use different settings to control what should be visible for the driver even though some information is mandatory.
+The pinDeliver Go Web app serves as a valuable tool for drivers, offering a rich array of functionalities. Moreover, it provides flexibility through customizable settings, allowing you to determine the driver's interface, even when certain information is mandatory.
 
-The web app runs directly in your web browser on the device which means that more or less all devices with a web browser can run this app.
+The web app operates seamlessly within your web browser on the device, ensuring compatibility with virtually all devices equipped with a web browser.
 
-Click the screenshot below to see a clip for the main workflow in Go web-app.
+To gain insight into the primary workflow within the Go Web app, watch the video below.
 
 <p float="right">
 <a href="https://youtu.be/NabQCy4zi7s" target="_blank">

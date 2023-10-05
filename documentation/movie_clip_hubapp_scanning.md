@@ -1,12 +1,12 @@
-# Movie clip - The HubApp
+# Video clip - The HubApp
 
-The HubApp is designed to optimize your warehouse and terminal management.
+The HubApp is designed to streamline your warehouse and terminal management.
 
-It's available for Android devices and the main feature is scanning, supporting both IR scanning and use of your smartphone camera. Additionally, the HubApp allows regular smartphones to connect to Bluetooth IR-scanners for more scanning options.
+It's compatible with Android devices and its primary function is scanning, supporting both IR scanning and smartphone camera use. Moreover, the HubApp allows regular smartphones to connect to Bluetooth IR-scanners for expanded scanning options.
 
-With the HubApp, you can easily scan goods during linehaul loading, arrival and sorting. You can also use the app to gather information about packages and create or change package structures. This is especially helpful when building pallets or rollcages.
+With the HubApp, you can easily scan goods during linehaul loading, arrivals, and sorting. It also provides the convenience of accessing package information and creating or adjusting package structures, which comes in handy for tasks like pallet or rollcage assembly.
 
-Moreover, the HubApp allows you to perform quality checks and generate package status reports, making it an excellent resource for effective and efficient goods management.
+Furthermore, the HubApp enables quality checks and the generation of package status reports, making it a valuable tool for efficient goods management.
 
 ### Sort packages, Arrival scan and Loading scan
 <p float="right">

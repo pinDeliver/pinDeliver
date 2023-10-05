@@ -1,12 +1,12 @@
 # How to use pinDeliver GO App for drivers
 
-The pinDeliver Go app is a tool for the driver. This is an app with a lot of functionality and it is also possible to use different settings to control what should be visible for the driver even though some information is mandatory.
+The pinDeliver Go app serves as a comprehensive tool designed for drivers, offering a wide array of functionalities. It also provides the flexibility to configure settings that control the driver's view, even though certain information remains mandatory.
 
-We have developed two different apps with similar functionality but some important differencies. The web app runs directly in your web browser on the device which means that more or less all devices with a web browser can run this app.
+We have developed two distinct apps with overlapping functionalities but some notable differences. The web app operates directly within your device's web browser, making it compatible with virtually all devices equipped with a web browser.
 
-The native app is developed for Android and iOS devices. The users can see slightly different behavior between the apps. In the web app all customers are loaded at once when opening the *Driving list* but in the native app each stop is loaded separately but automatically when finishing the previous stop. The native app supports package scanning when loading and unloading and in some other flows, for example returns.
+Conversely, the native app is specifically designed for Android and iOS devices. Users may notice slight variations in behavior between the two apps. In the web app, all customer information loads at once when accessing the *Driving list*, while the native app loads each stop individually but automatically upon completing the previous stop. Notably, the native app supports package scanning during both loading and unloading processes, as well as in various other workflows, such as handling returns.
 
-Click the screenshots below to see a clips for the main workflow in the different Go Apps.
+To gain insights into the primary workflows within these different Go Apps, watch the videos below.
 
 <p float="right">
 <a href="https://youtu.be/NabQCy4zi7s" target="_blank">
@@ -17,11 +17,11 @@ Click the screenshots below to see a clips for the main workflow in the differen
 </a>
 </p>
 
-The Go app also supports functions for:
+The Go app also includes functionalities for:
 * Pickups
 * Returns
 * Recyling
 * Driving records
 * Temperature reporting
 
-These functions are not shown in the video clips above.
+Please note that these functions are not demonstrated in the video clips provided above.  

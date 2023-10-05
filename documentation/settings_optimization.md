@@ -1,24 +1,24 @@
 # Optimization settings
 
-This page is used for affecting how the optimization engine works for calculating optimal delivery route. Some values are default values and if more specific values exists on delivery groups, customer orders, vehicles etc they will be used instead. The setup also contains functionality to calculate stop times based on
+This page is dedicated to configuring the optimization engine's behavior when calculating optimal delivery routes. While default values are available, the system can prioritize more specific settings assigned to delivery groups, customer orders, vehicles, and other entities. Additionally, the setup includes functionality for calculating stop times based on specific parameters.
 
 ![Language Settings](/images/settings_optimization_settings.png)
 
 |Field|Explanation|
 |----------|----------|
-|Driving speed|This slider is used to set a speed factor for drivning speed. 100% is normal speed an if you set for example 80% all driving times will be reduced by 20% but still keeping the stop time.|
-|Average stop time in minutes|The default stop time for the vehicle used if no other time defined in *Delivery group* or on the customer order.|
-|Business additional stop time (mins)|Specifies how many minutres that should be added to a stop if it is classified as a b2b stop. If stop time is specified on the individual customer order this field has no function.|
-|From weight|Part of weight table to make it possible to add stop time for heavy goods. This field is connected to the field *Additional Time*.|
-|Additional Time|Minutes that should be added to the stop time when weight is above the corresponding *From weight*-field. If you have several setup lines only the highest matching line will be used, meaning the *Additional Time* will not sum all lines above.|
-|Earliest delivery time|Default time window start used if there is no delivery time window specified for the vehicle or the customer.|
-|Latest delivery time|Default time window end used if there is no delivery time window specified for the vehicle or the customer.|
-|Include stop time in delivery time window|If this option is set then all of stop time for a delivery will occur within the delivery time window. Else only the start of the stop time is guaranteed to occur before the delivery time window ends.|
-|Delivery time interval that is outside customer's time window|This fields defines how to show delivery times when part of the delivery time interval is outside the customer time window. For instance: If the customer's time window is 4:00 PM-8:00 PM, then the delivery time interval shown can not be between 6:15 PM-8:15 PM, if we choose to clip the delivery time interval.|
-|Clipping delivery time interval to customer's time window|This field is only visible if *Delivery time interval that is outside customer's time window* is set to *Clip delivery time...*. For instance: Assume that the customer's time window is 4:00 PM-8:00 PM and the delivery time interval is between 6:15 PM-8:15 PM. The clipping can either offset the delivery time interval to 6:00 PM-8:00 PM or shrink it to 6:15 PM-8:00 PM.|
-|Use backorder list|An optimization that fails to route all deliveries will add the failed deliveries to a backorder list, rather than failing completely.|
-|Activate traffic regions and traffic limitations|Apply traffic regions and traffic limitations when optimizing route. Rush hours are specified as below.|
-|Morning rush hour From|Start time for the morning rush hours. Traffic restrictions are maintained in [Traffic restrictions](traffic_restrictions.md).|
-|Morning rush hour To|Stop time for the morning rush hours. Traffic restrictions are maintained in [Traffic restrictions](traffic_restrictions.md).|
-|Evening rush hour From|Start time for the evening rush hours. Traffic restrictions are maintained in [Traffic restrictions](traffic_restrictions.md).|
-|Evening rush hour To|Stop time for the evening rush hours. Traffic restrictions are maintained in [Traffic restrictions](traffic_restrictions.md).|
+|Driving speed|Adjusts the speed factor for driving. 100% represents normal speed, and setting it to, for example, 80% will reduce driving times by 20% while maintaining stop times.|
+|Average stop time in minutes|Default stop time for the vehicle if no other time is defined in the delivery group or on the customer order.|
+|Business additional stop time (mins)|Specifies the additional minutes added to a stop if it is categorized as a business-to-business (B2B) stop. If stop time is defined on the individual customer order, this field has no effect.|
+|From weight|Part of the weight table used to add stop time for heavy goods. Connected to the "Additional Time" field.|
+|Additional Time|Minutes added to the stop time when the weight exceeds the corresponding "From weight" field. If multiple setup lines exist, only the highest matching line is used; "Additional Time" does not accumulate across lines.|
+|Earliest delivery time|Default time window start used if no delivery time window is specified for the vehicle or the customer.|
+|Latest delivery time|Default time window end used if no delivery time window is specified for the vehicle or the customer.|
+|Include stop time in delivery time window|If enabled, all stop time for a delivery occurs within the delivery time window. Otherwise, only the start of the stop time is guaranteed to occur before the delivery time window ends.|
+|Delivery time interval that is outside customer's time window|Defines how to display delivery times when part of the delivery time interval is outside the customer's time window. For example, if the customer's time window is 4:00 PM-8:00 PM, this setting determines how delivery times are shown when they fall between 6:15 PM-8:15 PM.|
+|Clipping delivery time interval to customer's time window|This option is visible only when "Delivery time interval that is outside customer's time window" is set to "Clip delivery time." For example, if the customer's time window is 4:00 PM-8:00 PM and the delivery time interval is 6:15 PM-8:15 PM, this setting allows you to choose whether to offset the delivery time interval to 6:00 PM-8:00 PM or shrink it to 6:15 PM-8:00 PM.|
+|Use backorder list|Instead of failing a route optimization that can't route all deliveries, this option adds the failed deliveries to a backorder list.|
+|Activate traffic regions and traffic limitations|Enables the application of traffic regions and traffic limitations during route optimization. Morning and evening rush hours are specified below.|
+|Morning rush hour From|The start time for morning rush hours. Traffic restrictions are adjusted in the [Traffic restrictions](traffic_restrictions.md) section.|
+|Morning rush hour To|The end time for morning rush hours. Traffic restrictions are adjusted in the [Traffic restrictions](traffic_restrictions.md) section.|
+|Evening rush hour From|The start time for evening rush hours. Traffic restrictions are adjusted in the [Traffic restrictions](traffic_restrictions.md) section.|
+|Evening rush hour To|The end time for evening rush hours. Traffic restrictions are adjusted in the [Traffic restrictions](traffic_restrictions.md) section.|

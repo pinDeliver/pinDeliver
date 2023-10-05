@@ -1,12 +1,10 @@
 # The Hub app
 
-Our Hub App is mainly for use in a terminal or warehouse to optimize the process in handling the goods after it has been picked. Functions that will simplify the daily work and also enhance the quality, delivery errors etc.
+The Hub App is primarily designed for use in terminals or warehouses to streamline and improve the handling of goods, enhancing daily operations, and reducing delivery errors. Additionally, it offers a convenient solution for managing packages related to Click & Collect orders. Users can scan the customer information page when customers arrive to collect their packages for Click & Collect orders, making the process smoother and more efficient.
 
-The Hub App is also a convenient method for handling packages for Click & Collect orders. It can be used to scan the customer information page when a customer comes to pick up his packages for a Click & Collect-order.
+## Hub App Interface and Customization
 
-## Example of how the Hub App
-
-The image below shows an example of the Hub App. The settings described below controls what options/buttons that are visible and available in the Hub App.
+The image below provides an example of the Hub App, with the settings described further determining the visible and accessible options and buttons within the Hub App.
 
 <p float="center">
   <img src="/images/pindeliver_hub_app.png" width="300" />
@@ -16,11 +14,11 @@ The image below shows an example of the Hub App. The settings described below co
 
 |Field|Explanation|
 |-----|----------|
-|Use quality check|Shows a checklist of tasks to do before starting a route.|
-|Use sort scanning|Scan for sorting packages to different routes.|
-|Move assignments|Create an assignment to move packages between routes.|
-|Use arrival scanning|Scan packages when they arrive to the terminal. Makes the packages available for routing.|
-|Arrival report|Shows a summary of all arrival scanned goods.|
-|Use loading scanning|Scan package for loading vehicle.|
+|Use quality check|Displays a checklist of tasks before starting a route.|
+|Use sort scanning|Scan packages for sorting into different routes.|
+|Move assignments|Creates an assignment to transfer packages between routes.|
+|Use arrival scanning|Scan packages upon arrival at the terminal, making them available for routing.|
+|Arrival report|Provides a summary of all goods scanned upon arrival.|
+|Use loading scanning|Scan packages for loading onto vehicles.|
 |Create packages|Create a new package.|
-|Use scan for info|Scan to get more information about the package.|
+|Use scan for info|Scan to gather more information about the package.|

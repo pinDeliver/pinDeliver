@@ -1,6 +1,6 @@
 # Settings
 
-The settings section (Admin/Settings) is divided into several different tabs. Each tab has it´s own page. Just click the link in the menu tree or below to read more.
+The settings section (Admin/Settings) is organized into multiple tabs, each with its own dedicated page. Simply click on the respective link in the menu tree or below to access further details. 
 
 Tabs:
 * [Basic settings](settings_basic.md)

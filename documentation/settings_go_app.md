@@ -1,48 +1,48 @@
 # The Go app
 
-The pinDeliver Go app is a tool for the driver. This is an app with a lot of functionality and it is also possible to use different settings to control what should be visible for the driver even though some information is mandatory.
+The pinDeliver Go app is designed to assist drivers and offers a wide range of functionalities. Users can customize the app settings to control what information is displayed to the driver, although certain information is mandatory.
 
-We have developed two different apps with similar functionality but some important differencies. The web app is run directly in a web browser on the device which means that more or less all devices with a web browser can run this app.
+We offer two versions of the app, each with its own unique features. The web app runs directly in a web browser on the device, making it compatible with virtually all devices equipped with a web browser.
 
-The so called Native app is developed for Android and iOS devices. The users can see a slightly different behavior between the apps. In the web app all customers are loaded at once when opening the *Driving list* but in the native app each stop is loaded separately but automatically when finishing the previous stop. The Native app has support for scanning package numbers when loading and unloading and some other flows, for example returns.
+The Native app, on the other hand, is specifically developed for Android and iOS devices. Users may notice slight behavioral differences between the two apps. In the web app, all customer data is loaded at once when opening the Driving list. In the Native app, customer data is loaded individually but automatically when the driver completes the previous stop. The Native app also supports the scanning of package numbers during loading, unloading, and other workflows, such as returns.
 
-The apps themselves are very intuitive and doesn´t need much of education for the drivers. The main task for the drivers is just to select what kind of stop they make. They have three different stop types to select from with similar lead texts in the different apps:
+Both apps are designed to be highly intuitive, requiring minimal training for drivers. The primary task for drivers is to select the type of stop they are making, with three available options and similar instructions in both apps:
 
-* <span style="color:green">**OK**</span> - Order delivered/picked up and the customer was home
-* <span style="color:orange">**OK, NOT AT HOME**</span> - Order delivered/picked up but the customer was not home. Often combined with a photo.
-* <span style="color:red">**NOT OK**</span> - Order/Pickup could not be handled. The driver normally select a deviation code.
+* <span style="color:green">**OK**</span> - Indicates that the order was successfully delivered/picked up, and the customer was available to receive the package.
+* <span style="color:orange">**OK, NOT AT HOME**</span> - Indicates that the order was successfully delivered/picked up, but the customer was not available to receive the package. This option often includes the option to capture a photo.
+* <span style="color:red">**NOT OK**</span> - Indicates that the order/pickup could not be completed. In this case, the driver typically selects a deviation code to explain the issue.
 
-#### Difference between Go web-app and native app
+#### Difference between the Go Web App and the Go Native App
 <p float="center">
   <img src="/images/pindeliver_go_webapp.png" width="300" />
   <img src="/images/pindeliver_go_native.png" width="300" />
 </p>
 
-It is possible to select behavior data to view with some settings. See settings screenshot and explanation below.
+You can choose to display behavior data using certain settings. Please refer to the settings screenshot and the explanation provided below.
 
 ![Go](/images/settings_the_go_app.png)
 
 |Segment|Field|Explanation|Web app supported|Native app supported|
 |-----|-----|----------|:---:|:---:|
-|**General**|Enable using Go Native app|This will enable the use of the Native app.||X|
-||Update the driver's position during the route|If this is set then the driver's position will be updated every minute while the route is active. Else the latest known position, which will be the latest stop, will be shown.||X|
-||Minutes before planned starting time that the driver is allowed to start the route|Until the specified number of minutes before the planned route's starting time it will not be possible to start the route. After that, until the planned starting time, a warning will be displayed.|X|X|
-||Image for delivery-not-home|This will open the phone camera automatically when a a stop is handled as **NOT OK**. The photo will be visible on the customer page.|X|X|
-||Comment on delivery-not-home|Adds the possibility to leave a comment at delivery-not-home. Can only be set if "Image for delivery-not-home" is set.|
-||Image for delivery-not-delivered|Save and show image on delivery-not-delivered. (The image will appear at the customer page)|
-||Image for ok-delivered|Save and show image on ok-delivered. (The image will appear at the customer page)|
-||Comment on delivery-ok|Adds the possibility to leave a comment at delivery-ok. Can only be set if "Image for delivery-ok" is set.|
-||Waze GPS-navigator|When this is set a button will be displayed on each delivery card in the GO app. The button will start Waze as GPS navigator if it is installed, or else Waze web version will be started. Click here to read more about [Waze GPS-navigator](https://www.waze.com/live-map/).|
-||Display time window|When display time window is set, the delivery time window will be displayed in the GO app.|
-||Display sender|When display sender is set, the delivery sender will be displayed in the GO app.|
-||Package loading|Will give the driver access to search. Search result will help the driver to load packages on to the correct truck or car.|
-||Use offloading scan|Require the driver to scan goods for offloading on arrive at a stop.|
-||Handle returns|The driver may receive returnable goods from the customer.|
-||Driving record|The driver reports a driving record for the route. Data that is reported is for example vehicle start and stop mileage.|
-||Register stop temperature|The driver reports good's temperature at each stop.|
-|**Driver SMSes**|SMS to driver when the route has been assigned|The SMS is sent when a route is assigned and SMS has been selected for communicating the message to the driver.|X|X|
-|**Driver emails**|Email to driver when the route has been assigned|The email is sent when a route is assigned and email has been selected for communicating the message to the driver.|X|X|
-|**Deviation codes**|Ordering|Used to change order of the deviation codes that the driver can choose from. Just drag'n'drop the deviation codes when you have created them.|
-||Text description|Description visible for driver in the Go App.|
-||Requires comment|Defines if the driver needs ta write a comment or not.|
-||Active|Activate a deviation code by turning on and off.|
+|**General**|Enable using Go Native app|Allows the use of the Native app.||X|
+||Update the driver's position during the route|If enabled, the driver's position updates every minute during an active route. Otherwise, the latest known position, typically the latest stop, is displayed.||X|
+||Minutes before planned starting time that the driver is allowed to start the route|Sets the time in minutes before the planned route start when the driver can start the route. A warning is displayed until the planned starting time.|X|X|
+||Image for delivery-not-home|Automatically opens the phone camera when handling a **OK, NOT HOME** stop. The photo is visible on the customer page.|X|X|
+||Comment on delivery-not-home|Adds the possibility to leave a comment at a **OK, NOT HOME** stop. Requires "Image for delivery-not-home" to be set. |
+||Image for delivery-not-delivered|Saves and displays an image for **NOT OK** stops (visible on the customer page).|
+||Image for ok-delivered|Saves and displays an image for **OK** stops (visible on the customer page).|
+||Comment on delivery-ok|Enables comments for **OK** stops. Requires "Image for OK Delivered" to be enabled. |
+||Waze GPS-navigator|Displays a button on each delivery card in the GO app. The button launches Waze as a GPS navigator if installed. Otherwise, it opens the web version of Waze.|
+||Display time window|Displays the delivery time window in the GO app.|
+||Display sender|Displays the delivery sender in the GO app.|
+||Package loading|Gives the driver access to package search functionality, aiding in loading packages onto the correct vehicle.|
+||Use offloading scan|Requires the driver to scan goods when offloading at each stop.|
+||Handle returns|Permits the driver to receive returnable goods from customers.|
+||Driving record|Allows the driver to report a driving record for the route, including details such as vehicle start and stop mileage.|
+||Register stop temperature|Permits the driver to report the temperature of goods at each stop.|
+|**Driver SMSes**|SMS to driver when the route has been assigned|Sends an SMS to the driver when a route is assigned, given that SMS is chosen as the communication method.|X|X|
+|**Driver emails**|Email to driver when the route has been assigned|Sends an email to the driver when a route is assigned, given that email is chosen as the communication method.|X|X|
+|**Deviation codes**|Ordering|Allows changing the order of deviation codes available to the driver. Drag and drop codes after creation.|
+||Text description|Provides a visible description for drivers in the Go App.|
+||Requires comment|Specifies whether the driver must provide a comment when selecting a deviation code.|
+||Active|Activates or deactivates a deviation code.|

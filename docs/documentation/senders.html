@@ -69,14 +69,13 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="senders">Senders</h1>
 
-<p>All customer orders have a sender. A sender can be the transportation company delivering the order or for example the retailer company that sold the goods. A customer order can only have one sender but all customer orders in a planning order can have different senders. The senders are used in the customer communication telling the customer from which sender the goods are coming. This means that each customer order is branded according to the sender, even when many senders share the same route and vehicle.</p>
-<p>The sender can be branded by using different logo, colors, instructive text and customer service phone number etc shown on the customers page (GET page).</p>
-<p>In pinDeliver you will always have one default sender. This means that if you do not specify a specific sender on a customer order, the default sender will be used.</p>
-<p>To create a new sender you select Admin/Senders from the main menu. A list of all senders is shown and you just click <strong>Add new sender</strong> in the bottom of the list. To change an existing sender you just click the sender name or the <strong>Edit</strong> button to open the sender card.</p>
+<p>Every customer order is associated with a sender. For instance, this can be the transportation company handling the delivery or the retailer that sold the goods. Each customer order can have only one sender, but within a planning order, different customer orders can have different senders. Senders play a crucial role in customer communication, informing recipients of the source of the goods. As a result, each customer order is branded based on the sender, even when multiple senders share the same route and vehicle.</p>
+<p>Senders can be branded with distinct logos, colors, instructive text, and customer service phone numbers, which are displayed on the customer page (GET page).</p>
+<p>By default, pinDeliver includes one primary sender. This means that if you do not specify a particular sender for a customer order, the default sender will be used.</p>
+<p>To create a new sender, navigate to Admin/Senders in the main menu. A list of all senders will be displayed, and you can click <strong>Add new sender</strong> at the bottom of the list to create a new one. To modify an existing sender, simply click the sender's name or the <strong>Edit</strong> button to access the sender card.</p>
 <p><img src="/images/sender_list.png" alt="Senders"></p>
 <h3 id="sender">Sender</h3>
-<p>This is the main tab for the sender with information about name and contact information.
-Fill in all relevant fields in the sender card and click <strong>Create</strong> to save it. See image and field explanations below.</p>
+<p>The sender's primary tab provides essential details about the sender's name and contact information. Complete all the relevant fields in the sender card, and then click <strong>Create</strong> to save the information. Refer to the image and field explanations below for guidance.</p>
 <p><img src="/images/sender_sender.png" alt="Sender"></p>
 <table>
 <thead>
@@ -88,41 +87,41 @@ Fill in all relevant fields in the sender card and click <strong>Create</strong>
 <tbody>
 <tr>
 <td>Sender</td>
-<td>The official name of the sender. this will be shown to the customer.</td>
+<td>The official name of the sender, displayed to the end customer.</td>
 </tr>
 <tr>
 <td>SMS sender</td>
-<td>A short name that will be shown as the name of the SMS sender. Maximum length of 11 characters.</td>
+<td>A short name, up to 11 characters, displayed as the SMS sender name.</td>
 </tr>
 <tr>
 <td>Sender ID</td>
-<td>A unique sender identifier value used for integration or Excel upload of customer orders.</td>
+<td>A unique identifier used for integration or Excel uploads of customer orders.</td>
 </tr>
 <tr>
 <td>Customer service number</td>
-<td>Phone number to the sender´s customer service. Will be shown to the end customer.</td>
+<td>Phone number to the sender's customer service, displayed to the end customer.</td>
 </tr>
 <tr>
 <td>Customer service email</td>
-<td>Email to the sender´s customer service. Will be shown to the end customer.</td>
+<td>Email address to the sender's customer service, displayed to the end customer.</td>
 </tr>
 <tr>
 <td>Street</td>
-<td>Street address to the sender. Will be shown to the end customer.</td>
+<td>Street address to the sender, displayed to the end customer.</td>
 </tr>
 <tr>
 <td>Zip code</td>
-<td>Zip code to the sender. Will be shown to the end customer.</td>
+<td>Sender's zip code, displayed to the end customer.</td>
 </tr>
 <tr>
 <td>City</td>
-<td>City to the sender. Will be shown to the end customer.</td>
+<td>The city where the sender is located, displayed to the end customer.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="settings">Settings</h3>
-<p>It is possible to have specific settings for specific senders. This makes it possible to different settings depending on who the sender is. For example different SMS messages or triggers for SMS.</p>
-<p>pinDeliver always have a default sender, meaning that if you don´t specify the sender for a customer order the default sender will be used instead.</p>
+<p>Customized settings for individual senders allow you to tailor your communication based on the sender's identity. This flexibility enables distinct messaging or SMS triggers depending on the sender.</p>
+<p>In pinDeliver, a default sender is a standard feature. Therefore, if a customer order is not assigned a specific sender, the default sender will be applied automatically.</p>
 <p><img src="/images/sender_settings.png" alt="Settings"></p>
 <table>
 <thead>
@@ -134,26 +133,26 @@ Fill in all relevant fields in the sender card and click <strong>Create</strong>
 <tbody>
 <tr>
 <td>Allow change sender settings</td>
-<td>If this is checked it is possible to have different settings for this specific sender compared to the default sender.</td>
+<td>Lets you set unique options for a specific sender.</td>
 </tr>
 <tr>
 <td>Show packages on customer page</td>
-<td>Check this to show the packages on the customer page.</td>
+<td>Displays packages on the customer's page.</td>
 </tr>
 <tr>
 <td>Allow digital signature</td>
-<td>Check this to make it possible to use digital signature for the customer when receiving goods.</td>
+<td>Allows customers to sign digitally upon delivery.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="sms">SMS</h3>
-<p>When you want different SMS templates or triggers for a specific sender you have to specify them in this page. The different SMS templates and triggers are explained in the <a href="settings_sms.html">SMS settings tab</a>.</p>
+<p>If you want unique SMS templates or triggers for a particular sender, you can set them up on this page. You will find detailed explanations of these SMS templates and triggers in the <a href="settings_sms.html">SMS settings tab</a>.</p>
 <p><img src="/images/sender_sms.png" alt="SMS"></p>
 <h3 id="email">Email</h3>
-<p>When you want different email templates or triggers for a specific sender you have to specify them in this page. The different email templates and triggers are explained in the <a href="settings_email.html">Email settings tab</a>.</p>
+<p>If you want customized email templates or triggers for a specific sender, you can configure them on this page. Detailed explanations of these email templates and triggers can be found in the <a href="settings_email.html">Email settings tab</a>.</p>
 <p><img src="/images/sender_email.png" alt="Email"></p>
 <h3 id="theme">Theme</h3>
-<p>In this tab you customize the look of the customer information page. The settings for the default sender will be used if you don´t add any colors or images to this settings tab. Since pinDeliver supports multiple senders (one per customer order) it is possible to give the customers different look &amp; feel depending on the sender of the goods.</p>
+<p>On this tab, you can personalize the appearance of the customer information page. If you do not add any colors or images here, the settings of the default sender will be applied. Since pinDeliver allows for multiple senders (one per customer order), you can provide customers with a distinct look and feel based on the sender of the goods.</p>
 <p><img src="/images/sender_theme.png" alt="Theme"></p>
 <table>
 <thead>
@@ -165,35 +164,35 @@ Fill in all relevant fields in the sender card and click <strong>Create</strong>
 <tbody>
 <tr>
 <td>Light color</td>
-<td>Background color in text areas on the customer information page. A recommended color code is #F0F0F0 since is is a bright but not white background.</td>
+<td>Background color in text areas on the customer information page. A recommended color code is #F0F0F0, as it provides a bright but not white background.</td>
 </tr>
 <tr>
 <td>Text color</td>
-<td>Text color for lead texts (see explaining text under the field <strong>Driver notes</strong> in right example image below).</td>
+<td>Text color for lead texts (see explanatory text under the field <strong>Driver notes</strong> in the right example image below).</td>
 </tr>
 <tr>
 <td>Dark color</td>
-<td>Background color on time schedule sign on first page and header texts (see header text <strong>Driver notes</strong> in right example image below).</td>
+<td>Background color on the time schedule sign on the first page and header texts (see header text <strong>Driver notes</strong> in the right example image below).</td>
 </tr>
 <tr>
 <td>Sender logotype</td>
-<td>Click button to upload file that will be visible in top left corner on the customer information page. Recommended size is 664x182 pixels. It is also recommended to use transparent background to get the best look.</td>
+<td>Click the button to upload a file that will appear in the top left corner of the customer information page. Recommended size is 664x182 pixels. It is recommended to use a transparent background for the best appearance.</td>
 </tr>
 <tr>
 <td>Delivery/pickup location icon</td>
-<td>Click button to upload icon showing the pickup or dropoff location. Recommended size is 72x72 pixels.</td>
+<td>Click the button to upload an icon representing pickup or drop-off locations. Recommended size is 72x72 pixels.</td>
 </tr>
 <tr>
 <td>Truck current location icon</td>
-<td>Click button to upload icon for showing current position of the vehicle. Recommended size is 72x72 pixels.</td>
+<td>Click the button to upload an icon indicating the current position of the vehicle. Recommended size is 72x72 pixels.</td>
 </tr>
 <tr>
 <td>Font URL</td>
-<td>An url to a specific font for texts on the customer information page.</td>
+<td>A URL link to a specific font for text on the customer information page.</td>
 </tr>
 <tr>
 <td>Font name</td>
-<td>Name for the font specified in the link above.</td>
+<td>The name of the font specified in the Font URL.</td>
 </tr>
 </tbody>
 </table>

@@ -69,11 +69,11 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="delivery-groups">Delivery groups</h1>
 
-<p>Delivery groups are essential when running pinDeliver. Many entities are connected to one or more delivery groups. You can use delivery groups for dividing deliveries into planning orders. For example based on different warehouse locations and/or user permissions. A delivery can only be connected to one delivery group. And planning orders can only consist of deliveries to the same delivery group, which means that a rout will also only have deliveries to the same delivery group. It is possible to have several planning orders for the same delivery group for the same day.</p>
-<p>Each delivery group can also have a depot. A depot can be considered as a loading location that doesn't have to be on the same physical location as where the vehicles are starting. A depot is mandatory when using dynamics pickup and delivery or reloading functionality. If you want to include loading time in the routes it is also mandatory to use depots.</p>
-<p>To create a new delivery group you select Admin/Delivery groups from the main menu. A list of all created delivery groups is shown and you just click <strong>Add new delivery group</strong> in the bottom of the list.</p>
+<p>Delivery groups are essential when planning in pinDeliver, as they help organize various entities. Entities can be associated with one or more delivery groups, making it easier to divide deliveries into planning orders. This division can be based on factors such as distinct warehouse locations or user permissions. It is important to note that a delivery can only be linked to one delivery group. Consequently, planning orders can only consist of deliveries belonging to the same delivery group, resulting in routes exclusively containing deliveries from that group. It is entirely possible to have multiple planning orders for the same delivery group scheduled for the same day.</p>
+<p>Additionally, each delivery group can be assigned a depot, which functions as a loading location. The depot does not necessarily need to be physically located where the vehicles begin their routes. However, a depot becomes mandatory when utilizing dynamic pickup and delivery or reloading features. If you intend to include loading time in your routes, using depots is also compulsory.</p>
+<p>To create a new delivery group, navigate to Admin/Delivery groups in the main menu. A list of all delivery groups created will be displayed, and at the bottom of this list, you can click on <strong>Add new delivery group</strong> to create a new one.</p>
 <p><img src="/images/delivery_group_list.png" alt="Delivery Groups"></p>
-<p>Fill in all relevant fields in the delivery group card and click <strong>Create delivery group</strong> to save it. See image and field explanations below.</p>
+<p>Fill in all the relevant fields in the delivery group card, and then click <strong>Create delivery group</strong> to save your changes. Refer to the image and field explanations provided below for further guidance.</p>
 <p><img src="/images/delivery_group.png" alt="Delivery Group"></p>
 <table>
 <thead>
@@ -85,19 +85,19 @@
 <tbody>
 <tr>
 <td>Name</td>
-<td>Name that should appear in lists visible for users.</td>
+<td>The name that appears in lists visible to users.</td>
 </tr>
 <tr>
 <td>Identifier</td>
-<td>Internal code used in integration.</td>
+<td>An internal code used for integration purposes.</td>
 </tr>
 <tr>
 <td>Use depots</td>
-<td>Toggle to yes if you want to use default loading time, reloading or dynamics pickup and deliveries.</td>
+<td>Shift to &quot;Yes&quot; if you want to utilize default loading time, reloading, or dynamics pickup and deliveries.</td>
 </tr>
 <tr>
 <td>Depot address</td>
-<td>The address of the physical depot. Used in route optimization to plan the vehicles to go to the depot before starting.</td>
+<td>The address of the physical depot, used in route optimization to plan vehicle routes to the depot before starting.</td>
 </tr>
 <tr>
 <td>Base stop time</td>
@@ -105,27 +105,27 @@
 </tr>
 <tr>
 <td>Apartment additional stop time</td>
-<td>Additional minutes that should be added to the <em>Base stop time</em> when the customer order is to an apartment.</td>
+<td>Additional minutes added to the “Base stop time” for customer orders delivered to apartments.</td>
 </tr>
 <tr>
 <td>Business additional stop time (mins)</td>
-<td>Additional minutes that should be added to the <em>Base stop time</em> when the customer order is to an company (see field b2c in a delivery).</td>
+<td>Additional minutes added to the “Base stop time” for customer orders delivered to companies (see field B2B in a delivery).</td>
 </tr>
 <tr>
 <td>Fixed stop time in depot</td>
-<td>The stop time in a depot, used both for initial loading and reloading.</td>
+<td>The stop time in a depot, used for both initial loading and reloading.</td>
 </tr>
 <tr>
 <td>Apply reloading at optimization</td>
-<td>Defines if it should be possible and/or mandatory for the user to use reloading when route optimization is done. Available options are:<ur><li>Never</li><li>Always</li><li>Selectable at optimization</li></ur></td>
+<td>Defines if reloading should be possible and/or mandatory during route optimization. Options include: <ur><li>Never</li><li>Always</li><li>Selectable at optimization</li></ur></td>
 </tr>
 <tr>
 <td>Unique click &amp; collect text for customer page</td>
-<td>Will be displayed on the customer page. The unique text will not be displayed for deliveries. Only collection orders will see the text on the customer page.</td>
+<td>Text displayed on the customer page for collection orders. This unique text is not displayed for deliveries.</td>
 </tr>
 <tr>
 <td>Unique text for customer page</td>
-<td>Will be displayed on the customer page.</td>
+<td>Text displayed on the customer page.</td>
 </tr>
 </tbody>
 </table>

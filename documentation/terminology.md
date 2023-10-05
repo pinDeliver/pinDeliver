@@ -1,26 +1,26 @@
 # Terminology
-This terminology list describes common terms that are good to know when learning about pinDeliver.
+This terminology list provides an overview of common terms that are essential to understand when learning about pinDeliver.
 
 **Customer order**
-Similar to a delivery or a pickup. Used to simplify in writing instead of writing *Delivery or Pickup*.
+A term used to refer to a delivery or a pickup. It is used for the sake of brevity instead of explicitly mentioning "Delivery" or "Pickup" every time.
 
 **Dynamic pickups and deliveries**
-Used when a route should be planned to first do a pickup at one place or more places and then deliver to one or more places. The pickup will then be planned according to the best route.
+This term is used when planning a route that involves picking up items from one or more locations and then delivering them to one or more destinations. The pickups are scheduled based on the optimal route calculated by the system.
 
 **Open end**
-When a vehicle doesn´t have an end address specified the route will have an open end meaning that the time for going from the last stop to the address to park the vehicle will not be included in the route optimization.
+When a vehicle does not have a specified end address, the route is considered to have an "open end". In this case, the time required to travel from the last stop to the location where the vehicle needs to be parked is not included in the route optimization process.
 
 **Pickup identifier**  
-Identifying value to connect a pickup with one or more deliveries or vice versa.
+A unique value used to establish a connection between a pickup and one or more deliveries, or vice versa. It helps to ensure the proper association and tracking of related orders.
 
 **Stop time**  
-Estimated time in minutes for a stop at the customer to do a delivery and/or pickup.
+The estimated duration, in minutes, for a stop at a customer's location to perform a delivery and/or pickup. It helps in calculating the overall time required for a route and optimizing the scheduling process.
 
 **Stop type**  
-Defines if a customer order is delivery or a pickup. If a pickup and delivery are connected they need pickup identifiers.
+This attribute specifies whether a customer order is a delivery or a pickup. In the case of connected pickups and deliveries, they must have corresponding pickup identifiers.
 
 **Time window**  
-An interval between 2 times when the deliver is allowed to be delivered.
+An interval between two specific times during which a delivery is allowed to be made. It helps in managing the scheduling of deliveries within specific time constraints.
 
 **Vehicle tag**  
-A value often used as a property or definition for a vehicle. Customer orders with vehicle tags can only be planned on a vehicle with a matching tag. Common examples are cold, freeze, tailgate etc.
+A value often used as a property or definition for a vehicle. Customer orders can only be planned on a vehicle that has a matching tag. Common examples of vehicle tags include "cold", "freeze", etc.

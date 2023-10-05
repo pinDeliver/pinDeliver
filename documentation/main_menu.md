@@ -1,30 +1,32 @@
 # Main menu
 
-The main menu in pinDeliver is self-adapting based on the activated company functionality and the user permissions. That means that the main menu doesn´t necessary looks as the images on this page.
+The main menu in pinDeliver adjusts itself based on the company's activated features and the user's permissions. This means that the main menu may not necessarily resemble the images on this page.
 
 ![Main menu](/images/main_menu.png)
 
-See information below about the different parts from the main menu.
+Refer to the information below for details about the various sections of the main menu.
 
 ### Overview
-The overview part is also similar to the start page in pinDeliver. This is where you see all plannings orders as an overview page. By default this page filters on planning orders 3 days back but it is possible to change the date filters on your own. this page will also open if you click on the pinDeliver logo in top left corner.
+The Overview section functions similarly to the pinDeliver start page, providing an overview of all planning orders. By default, this page displays planning orders from the last 3 days, but you can customize the date filters as needed. You can access this page by clicking on the pinDeliver logo in the top left corner.
 
-If you want to upload orders from an Excel file you use the green button to the right called **Add order**.
+To upload orders from an Excel file, simply use the green **Add order** button located on the right side..
 
-Orders that are uploaded/imported to the *Inbox* are found by clicking on the grey button showing number of orders in the inbox.
+Orders that have been uploaded or imported to the **Inbox** can be accessed by clicking on the grey button that displays the number of orders in the inbox.
 
 ![Overview](/images/main_menu_overview.png)
 
 ### Search
-From the *Search* menu you have two different options.
+Within the **Search menu**, you have two different options:
 
-* Search customer/delivery - Search for a customer order
-* Search package - Search for a specific package and get more details
+* **Search Customer/Delivery**: Use this option to search for a customer order.
+* **Search Package**: Use this option to search for a specific package and access additional details.
 
 ![Search customer/delivery](/images/main_menu_search_customer_delivery0.png)
 
 #### Search customer/delivery
-To easily find a customer order you can use the *Search customer/delivery*-functionality from *Search* on the main menu. It is possible to search for customers based on different criteria. You can select specific fields to search in or just keep all fields marked. If you for example search for *Göteborg* you will get all customer orders having *Göteborg* in the name or in city unless you change the search fields.
+To easily find a customer order, you can use the **Search Customer/Delivery** feature within the **Search menu** on the main interface. You have the flexibility to search for customers using various criteria. You can choose specific fields to refine your search or leave all fields selected for a broader search. For instance, if you search for "Göteborg", you will retrieve all customer orders with "Göteborg" in the name or city unless you modify the search fields.
+
+The available search fields include:
 
 * Tracking number
 * Customer number
@@ -37,60 +39,59 @@ To easily find a customer order you can use the *Search customer/delivery*-funct
 
 ![Search customer/delivery](/images/main_menu_search_customer_delivery1.png)
 
-After a search you will get a list of all customers that are found. You can also see how many orders you have for a that customer. By clicking on the customer you will come to a list showing all customer orders for this customer.
+Following a search, you will receive a list of all customers. You can also view the total number of orders associated with each customer. Clicking on a customer's name will navigate you to a detailed list displaying all customer orders attributed to that specific customer.
 
 ![Search customer/delivery](/images/main_menu_search_customer_delivery2.png)
 
-The list of customer orders are split in *Routed deliveries* and *Unrouted deliveries*. To see the specific order just click on the **Edit** or **Show** buttons to the right. If you want to see all customers orders on a route or planning order you can click their names instead.
+The list of customer orders is categorized into "Routed Deliveries" and "Unrouted Deliveries". To access a specific order, simply click on the **Edit** or **Show** buttons located to the right. Alternatively, clicking on the customer's name will display all of their orders within a route or planning order.
 
-#### Search package
-To easily find a package you can use the *Search package*-functionality from *Search* on the main menu. Select the package in the list of packages. You can filter on *Date, Delivery Group, Route Name* and *Package Id*. In the list you see the current status of the package.
+#### Search for Packages
+To efficiently find a package, utilize the **Search Package** functionality found in the main menu under **Search**. Within the list of packages, you can apply filters based on date, delivery group, route name, and package ID. The list provides real-time package status updates.
 
 ![Search packages](/images/main_menu_search_package1.png)
 
-To see a detailed view of the package lifecycle you just click the *Package Id*. Ont he following page you will see timestamps of all events for the package and you can also follow the physical movement on a map.
+For a detailed view of the package's lifecycle, simply click on the **Package ID**. On the subsequent page, you will find timestamps detailing all events related to the package. Additionally, you can track its physical movement on a map.
 
-If something has gone wrong and you want to change the package status you can mark the package in the list ans select **Action / Return to the previous status**.
+In case of any issues or if you need to modify the package status, select the package in the list, and then choose **Action / Return to Previous Status**.
 
 ![Search packages](/images/main_menu_search_package2.png)
 
 ### Messages
-It is possible to send custom messages through SMS or email. This functionality can be triggered from the different routes or manually by clicking on this menu item. It is possible to type an ad-hoc message or use templates.
+You have the option to send personalized messages via SMS or email. This functionality can be initiated from various routes or manually by selecting this menu item. You can either compose an ad-hoc message or use templates.
 
-The message functionality is for example used to trigger manual messages when a route has been delayed for some reason and you want to message all remaining customers.
-More information about this functionality can be in [Send custom messages](send_custom_messages.md).
+The message functionality is particularly useful for sending manual messages in cases of route delays or other unforeseen circumstances affecting remaining customers. For more details on this functionality, read [Send custom messages](send_custom_messages.md).
 
 ![Search customer/delivery](/images/main_menu_messages.png)
 
 ### History
-Normally you do not have to remove or archive any orders after completion. But if an order is *Archived* you will find it under the History-section.
+In most cases, there is no need to remove or archive completed orders. However, if an order is archived, you can locate it in the **History** section.
 
 ![History](/images/main_menu_history.png)
 
 ### Followup
-Under *Followup* you find several reports and pages for showing statistics, finished orders etc.
+In the Follow-up section, you will discover various reports and pages for displaying statistics, completed orders, and more.
 
 ![Followup](/images/main_menu_followup.png)
 
 ### Admin
-In the section *Admin* you find all available settings. These settings should be done before starting your first deliveries but you can off course change and add settings over time. Read more about these in [Settings](settings.md).
+Within the Admin section, you will locate all available settings. These settings should be configured before starting your deliveries. However, you can certainly modify and incorporate additional settings as needed over time. More information about settings can be found in the [Settings](settings.md) section.
 
 ![Admin](/images/main_menu_admin.png)
 
 ### API
-The API section describes the different standard methods used for REST communication to pinDeliver. These are always available and you must first add an API user, read more about this in [Users](users.md).
+The API section outlines various standard methods for REST communication with pinDeliver. These methods are consistently accessible, and your initial step involves creating an API user. Read more about this in the [Users](users.md) section.
 
-Another way is to use pinDeliver Service Center as a middleware. Service Center can be used for data-population, business logic etc. This means that it will be easier for you as an integrator if the Service Center is used. Please contact pinDeliver before starting developing an integration.
+Alternatively, you can use pinDeliver Service Center as a middleware solution. Service Center serves purposes such as data population and business logic implementation, making integration more seamless for developers. Prior to starting any integration efforts, please contact the pinDeliver team.
 
 ### Guide
-The Guide section links to this online help. It is the same online help that is also linked from [www.pindeliver.com](https://www.pindeliver.com)
+The Guide section provides a link to this online help resource, which is identical to the online help accessible via [www.pindeliver.com](https://www.pindeliver.com)
 
 ### Company name/User name
-By clicking on your username in the upper right corner you get a small menu with a few options:
+By clicking on your username in the upper right corner, a small menu with several options will be displayed.
 
 ![Commpany/User](/images/main_menu_companyname_username.png)
 
-* Notifications - Smaller messages, for example about customers with addresses with low gps coordinate quality.
-* News - Release news and other news from pinDeliver.
-* My profile - Here you can change your own contact information, password, language setting etc.
-* Log out - To log out current user.
+* **Notifications**: Receive smaller messages, such as notifications about customers with addresses having low GPS coordinate quality.
+* **News**: Stay updated with release news and other important updates from pinDeliver.  
+* **My profile**: Manage your own contact information, password, language settings, and more.  
+* **Log out**: Log out of the current user session.

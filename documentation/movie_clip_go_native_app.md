@@ -1,10 +1,10 @@
-# Movie clip - Go Driver native app
+# Video clip - Go Native app
 
-The pinDeliver Go app is a tool for the driver. This is an app with a lot of functionality and it is also possible to use different settings to control what should be visible for the driver even though some information is mandatory.
+The pinDeliver Go Native app serves as a comprehensive tool designed specifically for drivers. This versatile application offers a wide array of features, providing drivers with a robust toolkit for their tasks. Additionally, it offers customizable settings, allowing for fine-tuned control over the information presented to the driver, while ensuring that essential information remains readily accessible.
 
-The native app is developed for Android and iOS devices and supports package scanning when loading and unloading and in some other flows, for example returns.
+This Native app has been carefully crafted for compatibility with both Android and iOS devices. Its functionality includes package scanning during loading and unloading processes, and it extends to various other workflows, such as handling returns.
 
-Click the screenshot below to see a clip for the main workflow in Go native app.
+For a visual demonstration of the primary workflow within the Go Native app, please click on the provided video below.
 
 <p float="right">
 <a href="https://youtu.be/5Q_eE5KR6oA" target="_blank">

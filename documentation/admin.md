@@ -1,5 +1,3 @@
 # Admin
 
-Although it is very simple to get started with pinDeliver you can also do a lot of different settings to have full control and differentiate your processes depending on if you do deliveries, pickups or collect orders, different sender branding and much more.
-
-These settings are described in this segment of the page.
+While getting started with pinDeliver is straightforward, you also have the flexibility to configure various settings, enabling you to maintain complete control and tailor your processes based on whether you handle deliveries, pickups, collect orders, implement different sender branding, and much more. Details about these settings can be found in this section. 

@@ -1,10 +1,10 @@
 # Route optimization and transport planning
 
-When your orders are created in pinDeliver (Excel upload or api integration) it is time to do the route optimization/planning. When to do the route optimization differs between companies. Some companies do the route planning the day before the deliveries should be made and some just minutes before the vehicles will be loaded. The routing process can be done in just minutes.
+Once your orders have been generated in pinDeliver, either through Excel upload or API integration, the next step is to undertake route optimization and planning. The timing of this optimization process varies among companies. Some choose to perform route planning the day prior to the scheduled deliveries, while others opt for last-minute planning just before loading their vehicles. The route optimization process itself can be accomplished in a matter of minutes.
 
-Normally the routing is made automatic and you just confirm the resulting routes and assign drivers. But of course it is possible to change the suggested routes manually, both modifying and adding routes.
+Typically, the routing process is automated, allowing you to simply confirm the proposed routes and assign drivers. However, it is worth noting that manual adjustments to suggested routes, including modifications and the addition of new routes, are entirely feasible.
 
-Click the image below to see a clip about Route planning:
+For a comprehensive demonstration of the route planning functionality, watch the video below.
 <p float="right">
 <a href="https://youtu.be/5eoqk3x4Ee4" target="_blank">
 <img  alt="Route Optimization/Transport planning" src="/images/route_optimization_transport_planning_movieclip_screenshot.png" width="600">
@@ -12,8 +12,8 @@ Click the image below to see a clip about Route planning:
 </p>
 
 #### Start route optimization
-To start route optimization for a specific planning order you just click the order name. If pinDeliver couldn't find coordinates for any customer order you will see a list of the customer orders that you need to correct yourself. Otherwise you will come directly to the vehicle list.
+To start the route optimization for a specific planning order, simply click on the order name. In cases where pinDeliver could not retrieve coordinates for certain customer orders, you will encounter a list of these orders that require manual correction. Otherwise, you will be directed straight to the vehicle list.
 
-The vehicle lis shows all available vehicles for the delivery group that the planning order belongs to. You can easily deselect any vehicles you don´t want to use for this route optimization. It is also possible to change predefined values for each vehicle for only this routing. The vehicle will still keep the default values for the next routing.
+The vehicle list displays all available vehicles associated with the delivery group to which the planning order belongs. You have the flexibility to deselect any vehicles you do not wish to include in this route optimization. Additionally, you can modify predefined values for each vehicle exclusively for this routing, while the default values will remain intact for subsequent routings.
 
-To start the optimization you just click **Perform automatic routing**. Depending on how complex the planning order is the routing will take more or less time but normally the routing is done in less than a minute.
+To start the optimization process, click on **Perform automatic routing**. Depending on the complexity of the planning order, the routing process may vary in duration, but typically, routing is completed in under a minute.

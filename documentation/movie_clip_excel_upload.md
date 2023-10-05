@@ -1,8 +1,8 @@
-# Movie clip - Order upload with Excel
+# Video clip - Order upload with Excel
 
-A simple way to import orders to pinDeliver is through an Excel sheet. Then you don't need to develop an integration but on the other hand this task is always needed. Some companies start with the Excel import functionality and then develop an integration from their ERP or WMS as phase 2.
+One straightforward method for importing orders into pinDeliver is via an Excel sheet. This approach eliminates the need for immediate integration development, although it remains an essential task in the long run. Many companies initially adopt the Excel import feature and subsequently proceed to phase 2, where they develop integrations from their ERP or WMS.
 
-Click the image below to see a clip about Excel upload:
+To view a demonstration of the Excel upload process, watch the video below. 
 
 <p float="right">
 <a href="https://youtu.be/-K3hSL8nUmM" target="_blank">
