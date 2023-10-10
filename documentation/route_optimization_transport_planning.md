@@ -1,6 +1,6 @@
 # Route optimization and transport planning
 
-Once your orders have been generated in pinDeliver, either through Excel upload or API integration, the next step is to undertake route optimization and planning. The timing of this optimization process varies among companies. Some choose to perform route planning the day prior to the scheduled deliveries, while others opt for last-minute planning just before loading their vehicles. The route optimization process itself can be accomplished in a matter of minutes.
+Once your orders have been generated in pinDeliver, either through Excel upload or API integration, the next step is to start the route optimization and planning process. The timing of this optimization process varies among companies. Some choose to perform route planning the day prior to the scheduled deliveries, while others opt for last-minute planning just before loading their vehicles. The route optimization process itself can be accomplished in a matter of minutes.
 
 Typically, the routing process is automated, allowing you to simply confirm the proposed routes and assign drivers. However, it is worth noting that manual adjustments to suggested routes, including modifications and the addition of new routes, are entirely feasible.
 

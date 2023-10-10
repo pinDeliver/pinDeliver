@@ -21,7 +21,7 @@ You can configure messaging settings in the [Admin/Settings/SMS](settings_sms.md
 
 |Event|Description|Excel upload|Integration|
 |---|-----|:---:|:---:|
-|Send SMS when a customer is created|When integrating, customers are often added to an existing collection order, where the **Lock** and **Start Collection** buttons have already been activated. In such cases, we recommend composing the SMS as if the collection process has started. |X|X|
+|Send SMS when a customer is created|This feature ensures that as soon as a new customer is created within your system, an SMS notification is automatically sent to them. The system is designed to seamlessly integrate with existing collection orders when customers are added to these orders and the **Lock** and **Start Collection** buttons are activated. We recommend composing the SMS as if the collection process has started.|X|X|
 |Send SMS to customers when the driver begins collection.|The SMS will be sent when the **Start collection** is pressed.|X||
 |Send SMS to customers when delivery is not collected|SMS sent to all customers who have not picked up their orders when the collection order is marked as completed.|X|X|
 
@@ -60,6 +60,6 @@ A simple method for marking a customer order as collected is by using the Hub Ap
 </p>
 
 #### Complete collection order
-To finalize the collection order, typically when all collect orders have been picked up, just click **Complete collection**. If there are any orders that have not been collected, customers will receive SMS messages if you have configured this.
+To finalize the collection order, typically when all collect orders have been picked up, just click **Complete collection**. If there are any orders that have not been collected, customers will receive SMS messages if you have configured this in the [SMS section](settings_sms.md).
 
 ![Click & Collect Complete collection](/images/click_collect_4.png)

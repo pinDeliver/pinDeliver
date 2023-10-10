@@ -25,7 +25,7 @@ This settings page is where you can specify the information and features visible
 ||Allow customers to propose another day|Enable this option to allow customers to propose an alternative delivery day.|
 ||Earliest next delivery day after current and number of additional delivery days after that|If a customer wants to propose a new delivery day, you can specify how many days ahead they can do so.|
 ||Delivery days|Specifies which weekdays should be available for customers to select as the next delivery day.|
-||Exclude cancel on non delivery days|Often used to restrict cancellations to workdays. For example, if the company doesn't make deliveries on Saturdays and Sundays, and the "Minimum hours before departure for allowing cancel" is set to 24 hours, then the last possible cancellation period for Monday's deliveries should be 24 + 24 + 24 hours before distribution starts.|
+||Exclude cancel on non delivery days|This is often used to limit cancellations to workdays. For instance, if the company doesn't deliver on weekends and the cancellation window is set to 24 hours, then the latest time you can cancel Monday's deliveries would be 72 hours before delivery begins.|
 |Information to the customer about cancel delivery|Label for the "Cancel" button|Specify the text that should be displayed as the label for the “Cancel” button.|
 ||Label for the "Propose another day" button|Specify the text that should be displayed as the label for the “Propose another day” button.|
 ||Confirmation message for the cancelling|This message is displayed when the customer clicks the “Cancel” button to ensure that the customer really wants to proceed with the cancellation.|

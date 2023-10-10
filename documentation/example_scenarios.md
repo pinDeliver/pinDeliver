@@ -40,7 +40,7 @@ In this scenario, we outline a typical setup for a small company looking to get 
 You are now ready to start uploading orders via Excel and start the planning and execution of your deliveries.
 
 ## Medium company with deliveries (no pickups)
-This scenario describes a typical setup for a midsize company with two different warehouses and the drivers will load the vehicles. You only have to setup a few things before you can start delivering with pinDeliver. Recommended order for your setup is according to the table below.
+This scenario outlines a standard configuration for a medium-sized company that operates two separate warehouses, where drivers are responsible for loading vehicles. Before starting the deliveries using pinDeliver, there are only a few essential setup steps to complete. It is advisable to follow the recommended sequence for your setup, as indicated in the table below.
 
 |Step|Area/Section|Description|
 |:-:|---|-----|
